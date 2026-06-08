@@ -1,5 +1,9 @@
 # openalex-cli (`oa`)
 
+[![CI](https://github.com/Diego-Romero-NTT/openalex-semsearch-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/Diego-Romero-NTT/openalex-semsearch-cli/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python 3.14+](https://img.shields.io/badge/python-3.14%2B-blue.svg)](https://www.python.org/)
+
 A research-oriented CLI for [OpenAlex](https://openalex.org): **semantic search** of
 papers, retrieval of their **impact** (citations, FWCI, percentile), and **cluster
 analysis** by semantic similarity.

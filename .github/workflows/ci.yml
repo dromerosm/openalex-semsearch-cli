@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  smoke:
+    name: Install & smoke test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Create venv (Python 3.14)
+        run: uv venv --python 3.14 .venv
+
+      - name: Install package
+        run: uv pip install --python .venv/bin/python -e .
+
+      - name: Smoke test (no API keys required)
+        run: |
+          .venv/bin/oa --help
+          .venv/bin/oa whoami
+          .venv/bin/oa search --help
+          .venv/bin/oa cluster --help
+          .venv/bin/python -c "import openalex_cli.cli, openalex_cli.client, openalex_cli.clustering, openalex_cli.config, openalex_cli.ssl_setup; print('imports OK')"
