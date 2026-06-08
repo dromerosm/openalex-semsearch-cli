@@ -72,7 +72,7 @@ Not all of these are in the general guide; checked against the API:
 - Official bulk-download CLI (no semantic search):
   <https://developers.openalex.org/download/openalex-cli> ·
   [`openalex-official` (PyPI)](https://pypi.org/project/openalex-official/)
-- `truststore` (OS trust store; required behind the corporate Zscaler proxy):
-  <https://truststore.readthedocs.io>
+- `truststore` (OS trust store; required behind corporate TLS-inspecting proxies,
+  e.g. Zscaler): <https://truststore.readthedocs.io>
 - OpenAI Embeddings (default model `text-embedding-3-small`):
   <https://platform.openai.com/docs/guides/embeddings>
