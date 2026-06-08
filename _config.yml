@@ -1,0 +1,4 @@
+theme: jekyll-theme-cayman
+title: openalex-semsearch-cli
+description: OpenAlex CLI for semantic paper search, impact metrics (FWCI, percentiles) and cluster analysis with embeddings + HDBSCAN/UMAP.
+show_downloads: false
