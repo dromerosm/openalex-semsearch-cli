@@ -10,6 +10,7 @@ GIF="$DIR/demo.gif"
 asciinema rec "$CAST" \
   --overwrite \
   --headless \
+  --output-format asciicast-v2 \
   --window-size 110x30 \
   --idle-time-limit 2.5 \
   --title "openalex-cli (oa) demo" \

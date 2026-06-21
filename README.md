@@ -10,8 +10,10 @@ analysis** by semantic similarity.
 
 ![oa demo](examples/demo/demo.gif)
 
-> Recorded with [asciinema](https://asciinema.org); see [examples/demo/](examples/demo/)
-> to reproduce (`bash examples/demo/record.sh`).
+> ▶ **[Interactive version](https://dromerosm.github.io/openalex-semsearch-cli/demo.html)**
+> (play/pause/seek, selectable text) · recorded with
+> [asciinema](https://asciinema.org); see [examples/demo/](examples/demo/) to
+> reproduce (`bash examples/demo/record.sh`).
 
 > API rules and compliance: see [docs/references.md](docs/references.md)
 > (based on the official [LLM Quick Reference](https://developers.openalex.org/guides/llm-quick-reference)).

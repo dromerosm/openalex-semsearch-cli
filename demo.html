@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>openalex-cli (oa) — interactive demo</title>
+  <meta name="description" content="Interactive terminal demo of the OpenAlex semantic-search CLI (oa)." />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/asciinema-player@3.8.0/dist/bundle/asciinema-player.css" />
+  <style>
+    :root { color-scheme: dark; }
+    body {
+      margin: 0;
+      background: #0d1117;
+      color: #c9d1d9;
+      font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+    main { max-width: 980px; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; }
+    h1 { font-size: 1.6rem; margin: 0 0 .25rem; }
+    h1 code { color: #58a6ff; }
+    p.lead { color: #8b949e; margin: 0 0 1.75rem; }
+    .player { box-shadow: 0 10px 30px rgba(0,0,0,.5); border-radius: 8px; overflow: hidden; }
+    .note { margin-top: 2rem; padding: 1rem 1.25rem; background: #161b22; border: 1px solid #30363d; border-radius: 8px; }
+    .note h2 { font-size: 1.05rem; margin: 0 0 .5rem; }
+    pre { background: #010409; border: 1px solid #30363d; border-radius: 6px; padding: .85rem 1rem; overflow-x: auto; }
+    code { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; font-size: .9em; }
+    a { color: #58a6ff; }
+    footer { margin-top: 2.5rem; color: #8b949e; font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1><code>oa</code> — interactive demo</h1>
+    <p class="lead">
+      A recorded terminal session of the
+      <a href="https://github.com/dromerosm/openalex-semsearch-cli">OpenAlex semantic-search CLI</a>.
+      Press play, pause, seek — the text is selectable and copyable.
+    </p>
+
+    <div id="player" class="player"></div>
+
+    <div class="note">
+      <h2>Try it yourself</h2>
+      <pre><code>uv venv --python 3.14 .venv
+uv pip install --python .venv/bin/python -e .
+.venv/bin/oa search "graph neural networks for drug discovery" -n 10</code></pre>
+      <p>
+        Full instructions in the
+        <a href="https://github.com/dromerosm/openalex-semsearch-cli#readme">README</a>.
+        A live, in-browser terminal (ttyd) is also available — see
+        <a href="https://github.com/dromerosm/openalex-semsearch-cli/tree/main/examples/web-terminal">examples/web-terminal</a>.
+      </p>
+    </div>
+
+    <footer>
+      Recorded with <a href="https://asciinema.org">asciinema</a> ·
+      played with <a href="https://github.com/asciinema/asciinema-player">asciinema-player</a>.
+    </footer>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/asciinema-player@3.8.0/dist/bundle/asciinema-player.min.js"></script>
+  <script>
+    AsciinemaPlayer.create('examples/demo/demo.cast', document.getElementById('player'), {
+      autoPlay: true,
+      loop: true,
+      idleTimeLimit: 2,
+      theme: 'asciinema',
+      fit: 'width',
+      terminalFontSize: 'small'
+    });
+  </script>
+</body>
+</html>
