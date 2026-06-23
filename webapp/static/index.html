@@ -2,11 +2,77 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>openalex-cli demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>openalex-cli — semantic search & impact clustering</title>
+  <meta name="description" content="Live demo: semantic search of scholarly papers with impact metrics (FWCI, percentiles) and impact-based cluster analysis." />
+  <link rel="icon" href="data:," />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.plot.ly/plotly-basic-2.35.2.min.js" charset="utf-8"></script>
 </head>
 <body>
-  <h1>openalex-cli demo</h1>
-  <p>Backend is up. Frontend coming in the next increment.</p>
-  <p>Try the API: <a href="/api/health">/api/health</a></p>
+  <header class="hero">
+    <div class="wrap">
+      <h1><code>oa</code> — OpenAlex semantic search <span class="amp">&amp;</span> impact clustering</h1>
+      <p class="lead">
+        Search the scholarly literature by meaning, ranked with citation impact
+        (FWCI, field percentile), and explore papers grouped into themes by
+        semantic similarity.
+      </p>
+      <nav class="links">
+        <a href="https://github.com/dromerosm/openalex-semsearch-cli">GitHub</a>
+        <a href="https://dromerosm.github.io/openalex-semsearch-cli/demo.html">Terminal demo</a>
+        <a href="https://openalex.org">Powered by OpenAlex</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <!-- ============ Live search ============ -->
+    <section id="search-section">
+      <h2>Live semantic search</h2>
+      <p class="muted">
+        Real queries against OpenAlex. Results are capped at <strong id="cap">10</strong>
+        and rate-limited — it's a demo. Each paper shows its impact metrics.
+      </p>
+
+      <form id="search-form" class="search-bar">
+        <input id="q" type="text" placeholder="e.g. graph neural networks for drug discovery"
+               value="graph neural networks for drug discovery" autocomplete="off" />
+        <div class="mode-toggle" role="group" aria-label="search mode">
+          <label><input type="radio" name="mode" value="semantic" checked /> Semantic</label>
+          <label><input type="radio" name="mode" value="lexical" /> Lexical</label>
+        </div>
+        <button type="submit" id="search-btn">Search</button>
+      </form>
+
+      <div id="search-status" class="status"></div>
+      <div id="results"></div>
+    </section>
+
+    <!-- ============ Cluster explorer ============ -->
+    <section id="cluster-section">
+      <h2>Impact-based cluster explorer</h2>
+      <p class="muted">
+        Pre-computed examples: each set of papers is embedded, grouped by semantic
+        similarity (HDBSCAN over reduced embeddings) and laid out in 2D (UMAP).
+        Point size ∝ citations; color = cluster; gray = outliers.
+      </p>
+
+      <div id="example-tabs" class="tabs"></div>
+      <div id="cluster-meta" class="muted"></div>
+      <div id="plot" class="plot"></div>
+      <div id="cluster-cards" class="cards"></div>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <p class="muted">
+      Data from <a href="https://openalex.org">OpenAlex</a> ·
+      embeddings &amp; cluster descriptions by OpenAI ·
+      source on <a href="https://github.com/dromerosm/openalex-semsearch-cli">GitHub</a>.
+    </p>
+  </footer>
+
+  <script src="app.js"></script>
 </body>
 </html>
