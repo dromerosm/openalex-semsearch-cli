@@ -1,0 +1,34 @@
+# Deploy behind an existing Traefik reverse proxy on Hetzner (HTTPS via Let's
+# Encrypt). Assumes Traefik is already running and joined to an external network
+# named `traefik` (the pattern used by the cloudflare-hetzner-subdomain skill).
+#
+#   1. Point a Cloudflare subdomain at the Hetzner host.
+#   2. Set OA_HOST below (or via .env) to that subdomain.
+#   3. Provide OPENALEX_API_KEY (and optional OPENALEX_MAILTO) via .env.
+#   4. docker compose -f webapp/docker-compose.yml up -d --build
+services:
+  oa-demo:
+    build:
+      context: ..
+      dockerfile: webapp/Dockerfile
+    image: oa-demo
+    restart: unless-stopped
+    environment:
+      OPENALEX_API_KEY: ${OPENALEX_API_KEY:?set OPENALEX_API_KEY}
+      OPENALEX_MAILTO: ${OPENALEX_MAILTO:-}
+      OA_MAX_RESULTS: ${OA_MAX_RESULTS:-10}
+      OA_RATE_PER_MIN: ${OA_RATE_PER_MIN:-20}
+      OA_RATE_PER_DAY: ${OA_RATE_PER_DAY:-200}
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.oa-demo.rule=Host(`${OA_HOST:?set OA_HOST}`)
+      - traefik.http.routers.oa-demo.entrypoints=websecure
+      - traefik.http.routers.oa-demo.tls=true
+      - traefik.http.routers.oa-demo.tls.certresolver=${OA_CERTRESOLVER:-le}
+      - traefik.http.services.oa-demo.loadbalancer.server.port=8000
+    networks:
+      - traefik
+
+networks:
+  traefik:
+    external: true

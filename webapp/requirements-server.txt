@@ -1,0 +1,11 @@
+# Lean runtime dependencies for the production server.
+#
+# The server only does live search (OpenAlex over httpx) and serves pre-generated
+# static JSON. Clustering/embeddings run offline in generate_examples.py, so the
+# heavy scientific stack (numpy, scikit-learn, umap-learn, openai) is deliberately
+# NOT installed here — the image stays small and OPENAI_API_KEY never reaches it.
+fastapi>=0.115
+uvicorn[standard]>=0.32
+httpx>=0.28
+truststore>=0.10
+python-dotenv>=1.0
