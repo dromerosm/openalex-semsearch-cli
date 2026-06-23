@@ -1,0 +1,1383 @@
+{
+  "slug": "kelp-biomechanics",
+  "title": "Kelp forest biomechanics",
+  "query": "kelp forest biomechanics and wave drag",
+  "mode": "semantic",
+  "n_works": 70,
+  "n_clusters": 6,
+  "points": [
+    {
+      "id": "https://openalex.org/W2044271547",
+      "x": 4.9456,
+      "y": -2.017,
+      "cluster": 4,
+      "title": "Ecology of under story kelp environments. I. Effects of kelps on flow and particle transport near the bottom",
+      "year": 1989,
+      "cited_by_count": 266,
+      "fwci": 2.1972,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1016/0022-0981(89)90055-5"
+    },
+    {
+      "id": "https://openalex.org/W2161688825",
+      "x": 7.0052,
+      "y": -1.8307,
+      "cluster": 4,
+      "title": "The mechanics of wave-swept algae",
+      "year": 2002,
+      "cited_by_count": 197,
+      "fwci": 4.1996,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1242/jeb.205.10.1355"
+    },
+    {
+      "id": "https://openalex.org/W1843170901",
+      "x": 6.8115,
+      "y": -1.6039,
+      "cluster": 4,
+      "title": "Flow and Flexibility I. Effects of Size, Shape and Stiffness in Determining Wave Forces on the Stipitate Kelps <i>Eisenia Arborea</i> and <i>Pterygophora Californica</i>",
+      "year": 1997,
+      "cited_by_count": 116,
+      "fwci": 2.3133,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1242/jeb.200.24.3141"
+    },
+    {
+      "id": "https://openalex.org/W2181441526",
+      "x": 6.9898,
+      "y": -1.0574,
+      "cluster": 5,
+      "title": "Maintenance of Dynamic Strain Similarity and Environmental Stress Factor in Different Flow Habitats: Thallus Allometry and Material Properties of a Giant Kelp",
+      "year": 1994,
+      "cited_by_count": 140,
+      "fwci": 2.9106,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1242/jeb.195.1.381"
+    },
+    {
+      "id": "https://openalex.org/W2002026996",
+      "x": 5.9061,
+      "y": -1.5117,
+      "cluster": -1,
+      "title": "Interactive roles of mesograzers and current flow in survival of kelps",
+      "year": 2001,
+      "cited_by_count": 112,
+      "fwci": 3.2914,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.3354/meps223143"
+    },
+    {
+      "id": "https://openalex.org/W2158603591",
+      "x": 6.387,
+      "y": -1.7264,
+      "cluster": 4,
+      "title": "Wave-Induced Forces on the Giant Kelp <i>Macrocystis Pyrifera</i> (Agardh): Field Test of a Computational Model",
+      "year": 1996,
+      "cited_by_count": 97,
+      "fwci": 4.3032,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1242/jeb.199.12.2645"
+    },
+    {
+      "id": "https://openalex.org/W1974613185",
+      "x": 4.3512,
+      "y": -0.8274,
+      "cluster": 2,
+      "title": "Large-scale, low-frequency oceanographic effects on kelp forest succession:a tale of two cohorts",
+      "year": 1997,
+      "cited_by_count": 120,
+      "fwci": 5.3978,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.3354/meps146117"
+    },
+    {
+      "id": "https://openalex.org/W1990526921",
+      "x": 5.9223,
+      "y": -2.2626,
+      "cluster": 4,
+      "title": "Currents in the high drag environment of a coastal kelp stand off California",
+      "year": 1997,
+      "cited_by_count": 88,
+      "fwci": 0.382,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1016/s0278-4343(97)00054-x"
+    },
+    {
+      "id": "https://openalex.org/W2328988418",
+      "x": 5.356,
+      "y": 0.1739,
+      "cluster": 2,
+      "title": "Effects of wave exposure on population structure, demography, biomass and productivity of the kelp Laminaria hyperborea",
+      "year": 2012,
+      "cited_by_count": 100,
+      "fwci": 6.9017,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.3354/meps09594"
+    },
+    {
+      "id": "https://openalex.org/W1998137271",
+      "x": 5.9854,
+      "y": -0.5963,
+      "cluster": 5,
+      "title": "Grazing damage and encrustation by an invasive bryozoan reduce the ability of kelps to withstand breakage by waves",
+      "year": 2011,
+      "cited_by_count": 84,
+      "fwci": 3.1751,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1016/j.jembe.2011.06.033"
+    },
+    {
+      "id": "https://openalex.org/W2130418689",
+      "x": 6.3431,
+      "y": -2.2048,
+      "cluster": 4,
+      "title": "Modulation of wave forces on kelp canopies by alongshore currents",
+      "year": 2003,
+      "cited_by_count": 70,
+      "fwci": 1.0588,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.4319/lo.2003.48.2.0860"
+    },
+    {
+      "id": "https://openalex.org/W2111854484",
+      "x": 4.6031,
+      "y": -2.2612,
+      "cluster": 4,
+      "title": "Roles of transport and mixing processes in kelp forest ecology",
+      "year": 2012,
+      "cited_by_count": 56,
+      "fwci": 4.5013,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1242/jeb.059824"
+    },
+    {
+      "id": "https://openalex.org/W2038039705",
+      "x": 6.2499,
+      "y": -1.2927,
+      "cluster": 5,
+      "title": "Population, morphometric and biomechanical studies of three understory kelps along a hydrodynamic gradient",
+      "year": 2003,
+      "cited_by_count": 58,
+      "fwci": 3.1763,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.3354/meps265057"
+    },
+    {
+      "id": "https://openalex.org/W2124596387",
+      "x": 5.3713,
+      "y": -2.6586,
+      "cluster": 4,
+      "title": "Currents and turbulence within a kelp forest (<i>Macrocystis pyrifera</i>): Insights from a dynamically scaled laboratory model",
+      "year": 2010,
+      "cited_by_count": 45,
+      "fwci": 2.2443,
+      "field": "Environmental Science",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.4319/lo.2010.55.3.1145"
+    },
+    {
+      "id": "https://openalex.org/W2969727874",
+      "x": 5.0773,
+      "y": -0.9717,
+      "cluster": 2,
+      "title": "Kelp beds as coastal protection: wave attenuation of Ecklonia radiata in a shallow coastal bay",
+      "year": 2019,
+      "cited_by_count": 55,
+      "fwci": 3.6852,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1093/aob/mcz127"
+    },
+    {
+      "id": "https://openalex.org/W1986405997",
+      "x": 5.4047,
+      "y": -1.7906,
+      "cluster": 2,
+      "title": "Current and wave dynamics in the shallow subtidal: implications to the ecology of understory and surface-canopy kelps",
+      "year": 2003,
+      "cited_by_count": 41,
+      "fwci": 2.1175,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.3354/meps265045"
+    },
+    {
+      "id": "https://openalex.org/W2114070444",
+      "x": 5.7345,
+      "y": -2.4365,
+      "cluster": 4,
+      "title": "Interaction of waves and currents with kelp forests (<i>Macrocystis pyrifera</i>): Insights from a dynamically scaled laboratory model",
+      "year": 2013,
+      "cited_by_count": 42,
+      "fwci": 0.9631,
+      "field": "Environmental Science",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.4319/lo.2013.58.3.0790"
+    },
+    {
+      "id": "https://openalex.org/W2111141005",
+      "x": 7.2302,
+      "y": -1.2614,
+      "cluster": 5,
+      "title": "Size, not morphology, determines hydrodynamic performance of a kelp during peak flow",
+      "year": 2012,
+      "cited_by_count": 35,
+      "fwci": 2.7005,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1007/s00227-012-2138-8"
+    },
+    {
+      "id": "https://openalex.org/W2043382022",
+      "x": 5.6578,
+      "y": -1.4367,
+      "cluster": -1,
+      "title": "Phenological decoupling of mortality from wave forcing in kelp beds",
+      "year": 2014,
+      "cited_by_count": 26,
+      "fwci": 2.2489,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1890/13-2365.1"
+    },
+    {
+      "id": "https://openalex.org/W4292088657",
+      "x": 5.0729,
+      "y": -2.1447,
+      "cluster": 4,
+      "title": "A field investigation into the effects of a kelp forest (Macrocystis pyrifera) on coastal hydrodynamics and transport",
+      "year": 2022,
+      "cited_by_count": 24,
+      "fwci": 2.0332,
+      "field": "Environmental Science",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.17615/yqmq-mv67"
+    },
+    {
+      "id": "https://openalex.org/W2913257691",
+      "x": 6.7713,
+      "y": -1.1467,
+      "cluster": 5,
+      "title": "Mechanical properties of the wave-swept kelp, <i>Egregia menziesii</i>, change with season, growth rate, and herbivore wounds",
+      "year": 2019,
+      "cited_by_count": 28,
+      "fwci": 3.8797,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1242/jeb.190595"
+    },
+    {
+      "id": "https://openalex.org/W2810188242",
+      "x": 4.9749,
+      "y": -0.4209,
+      "cluster": 1,
+      "title": "Wasted effort: recruitment and persistence of kelp on algal turf",
+      "year": 2018,
+      "cited_by_count": 26,
+      "fwci": 1.9597,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.3354/meps12677"
+    },
+    {
+      "id": "https://openalex.org/W2165912571",
+      "x": 6.7199,
+      "y": -2.3137,
+      "cluster": 4,
+      "title": "Blade Motion and Nutrient Flux to the Kelp, <i>Eisenia arborea</i>",
+      "year": 2002,
+      "cited_by_count": 26,
+      "fwci": 0.7125,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.2307/1543453"
+    },
+    {
+      "id": "https://openalex.org/W1035352821",
+      "x": 5.3129,
+      "y": -2.3208,
+      "cluster": 4,
+      "title": "Measurement of the velocity-profile in and above a forest of<i>Laminaria hyperborea</i>",
+      "year": 1996,
+      "cited_by_count": 21,
+      "fwci": 0.0,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1080/00364827.1996.10413621"
+    },
+    {
+      "id": "https://openalex.org/W4384662205",
+      "x": 4.9316,
+      "y": -1.47,
+      "cluster": 2,
+      "title": "Wave damping by giant kelp, <i>Macrocystis pyrifera</i>",
+      "year": 2023,
+      "cited_by_count": 16,
+      "fwci": 3.9909,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1093/aob/mcad094"
+    },
+    {
+      "id": "https://openalex.org/W4285181571",
+      "x": 4.8079,
+      "y": -2.5771,
+      "cluster": 4,
+      "title": "Macrocystis pyrifera forest development shapes the physical environment through current velocity reduction",
+      "year": 2022,
+      "cited_by_count": 10,
+      "fwci": 1.6943,
+      "field": "Environmental Science",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.3354/meps14107"
+    },
+    {
+      "id": "https://openalex.org/W1994639880",
+      "x": 5.9972,
+      "y": 0.1442,
+      "cluster": 3,
+      "title": "An idealized model of interaction between fronds of the large seaweed Durvillaea antarctica",
+      "year": 2004,
+      "cited_by_count": 10,
+      "fwci": 1.3049,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1016/j.jmarsys.2003.05.009"
+    },
+    {
+      "id": "https://openalex.org/W2894610062",
+      "x": 5.2535,
+      "y": -0.3169,
+      "cluster": 1,
+      "title": "Biomass across space and tide: architecture of a kelp bed with implications for the abiotic environment",
+      "year": 2018,
+      "cited_by_count": 8,
+      "fwci": 0.9794,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1007/s10750-018-3788-4"
+    },
+    {
+      "id": "https://openalex.org/W4280593164",
+      "x": 6.272,
+      "y": -2.649,
+      "cluster": 4,
+      "title": "Less Than the Sum of Its Parts: Blade Clustering Reduces Drag in the Bull Kelp,<i>Nereocystis luetkeana</i>(Phaeophyceae)",
+      "year": 2022,
+      "cited_by_count": 6,
+      "fwci": 1.1763,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1111/jpy.13258"
+    },
+    {
+      "id": "https://openalex.org/W4389194948",
+      "x": 5.525,
+      "y": -2.5599,
+      "cluster": 4,
+      "title": "Kelp Forest model development in the Coupled Ocean-Atmosphere-Wave-Sediment-Transport model (COAWST V3.4)",
+      "year": 2023,
+      "cited_by_count": 2,
+      "fwci": 0.5137,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.5194/egusphere-2023-2330"
+    },
+    {
+      "id": "https://openalex.org/W4388499957",
+      "x": 6.1141,
+      "y": -2.7444,
+      "cluster": 4,
+      "title": "Wave-Induced Motion and Drag Reduction of Kelp",
+      "year": 2023,
+      "cited_by_count": 1,
+      "fwci": 0.268,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.22541/essoar.169945282.23163388/v1"
+    },
+    {
+      "id": "https://openalex.org/W4402794739",
+      "x": 6.0497,
+      "y": -0.866,
+      "cluster": 5,
+      "title": "Wave exposure influences kelp morphological and biomechanical phenotypic plasticity",
+      "year": 2024,
+      "cited_by_count": 3,
+      "fwci": 1.2606,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.3354/meps14707"
+    },
+    {
+      "id": "https://openalex.org/W6922509242",
+      "x": 5.3684,
+      "y": -1.3991,
+      "cluster": -1,
+      "title": "Grazer-resource behavior, interactions, and feedbacks control kelp-forest dynamics and stability",
+      "year": 2021,
+      "cited_by_count": 1,
+      "fwci": 0.0,
+      "field": "Environmental Science",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.13140/rg.2.2.15292.10880"
+    },
+    {
+      "id": "https://openalex.org/W4387606669",
+      "x": 4.6159,
+      "y": -0.6512,
+      "cluster": 2,
+      "title": "A century of canopy kelp persistence and recovery in the Gulf of Alaska",
+      "year": 2023,
+      "cited_by_count": 12,
+      "fwci": 2.9932,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1093/aob/mcad149"
+    },
+    {
+      "id": "https://openalex.org/W2995337561",
+      "x": 4.6498,
+      "y": -1.4633,
+      "cluster": 2,
+      "title": "Physical and Biological Consequences of Giant Kelp (Macrocystis Pyrifera) Removals Within a Central California Kelp Forest",
+      "year": 2019,
+      "cited_by_count": 1,
+      "fwci": 0.0,
+      "field": "Environmental Science",
+      "is_top_10_percent": false,
+      "doi": null
+    },
+    {
+      "id": "https://openalex.org/W4390636907",
+      "x": 4.805,
+      "y": -0.5893,
+      "cluster": 2,
+      "title": "Trends in the effects of kelp removal on kelp populations, herbivores, and understory algae",
+      "year": 2024,
+      "cited_by_count": 7,
+      "fwci": 3.1078,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1016/j.gecco.2024.e02805"
+    },
+    {
+      "id": "https://openalex.org/W2083038005",
+      "x": 3.9275,
+      "y": -1.3157,
+      "cluster": -1,
+      "title": "Demography and feeding behavior of the kelp crab <i>Taliepus marginatus</i> in subtidal habitats dominated by the kelps <i>Macrocystis pyrifera</i> or <i>Lessonia trabeculata</i>",
+      "year": 2013,
+      "cited_by_count": 12,
+      "fwci": 0.6158,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1111/ivb.12021"
+    },
+    {
+      "id": "https://openalex.org/W1984913346",
+      "x": 4.1234,
+      "y": -0.2991,
+      "cluster": 2,
+      "title": "Stability of Atlantic kelp forests",
+      "year": 1988,
+      "cited_by_count": 12,
+      "fwci": 0.8273,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1016/0169-5347(88)90099-7"
+    },
+    {
+      "id": "https://openalex.org/W2075053761",
+      "x": 4.1124,
+      "y": -0.4954,
+      "cluster": 2,
+      "title": "Climate driven changes in subtidal kelp forest communities in NW Spain",
+      "year": 2013,
+      "cited_by_count": 123,
+      "fwci": 8.3136,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1016/j.marenvres.2013.06.006"
+    },
+    {
+      "id": "https://openalex.org/W4388763856",
+      "x": 3.6508,
+      "y": -1.7745,
+      "cluster": 3,
+      "title": "Giant kelp (Macrocystis pyrifera) morphological and reproductive strategies in two contrasting sub-Antarctic forests",
+      "year": 2023,
+      "cited_by_count": 11,
+      "fwci": 2.8863,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1007/s00227-023-04341-x"
+    },
+    {
+      "id": "https://openalex.org/W2082221570",
+      "x": 3.6742,
+      "y": -0.1863,
+      "cluster": 1,
+      "title": "Inhibition of kelp recruitment by turfing algae and consequences for an Australian kelp community",
+      "year": 1987,
+      "cited_by_count": 110,
+      "fwci": 1.8054,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1016/s0022-0981(87)80014-x"
+    },
+    {
+      "id": "https://openalex.org/W4289843762",
+      "x": 6.7089,
+      "y": 0.8685,
+      "cluster": 0,
+      "title": "Foliar Sampling of Boston Fern1",
+      "year": 1983,
+      "cited_by_count": 4,
+      "fwci": 0.0,
+      "field": "Agricultural and Biological Sciences",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.21273/jashs.108.1.90"
+    },
+    {
+      "id": "https://openalex.org/W161617351",
+      "x": 5.0466,
+      "y": 0.5091,
+      "cluster": 2,
+      "title": "Growth of amputated and dark-exposed individuals of the brown alga Laminaria hyperborea",
+      "year": 1969,
+      "cited_by_count": 72,
+      "fwci": 4.3215,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1007/bf00351143"
+    },
+    {
+      "id": "https://openalex.org/W2981521083",
+      "x": 6.9786,
+      "y": 1.0481,
+      "cluster": 0,
+      "title": "Decomposition of Oil Palm Frond and Leaflet Residues",
+      "year": 2019,
+      "cited_by_count": 15,
+      "fwci": 1.3888,
+      "field": "Environmental Science",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.17503/agrivita.v41i3.2062"
+    },
+    {
+      "id": "https://openalex.org/W2339383838",
+      "x": 7.2789,
+      "y": 0.5931,
+      "cluster": 0,
+      "title": "Leaf morphology of the Pejibaye palm ( Bactris gasipaes H.B.K.)",
+      "year": 1983,
+      "cited_by_count": 8,
+      "fwci": 0.6238,
+      "field": "Agricultural and Biological Sciences",
+      "is_top_10_percent": false,
+      "doi": null
+    },
+    {
+      "id": "https://openalex.org/W365808757",
+      "x": 7.2782,
+      "y": 0.3247,
+      "cluster": 0,
+      "title": "AN ECOLOGICAL STUDY OF UNDARIA PINNATIFIDA SUR.-V",
+      "year": 1960,
+      "cited_by_count": 2,
+      "fwci": 0.0,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.2331/suisan.26.250"
+    },
+    {
+      "id": "https://openalex.org/W4247180896",
+      "x": 7.5007,
+      "y": 0.9056,
+      "cluster": 0,
+      "title": "Abscission and the Axillary Frond in Spirodela oligorhiza (Lemnaceae)",
+      "year": 1974,
+      "cited_by_count": 4,
+      "fwci": 0.5852,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.2307/2441616"
+    },
+    {
+      "id": "https://openalex.org/W1971444627",
+      "x": 7.647,
+      "y": 1.0664,
+      "cluster": 0,
+      "title": "ABSCISSION AND THE AXILLARY FROND IN SPIRODELA OLIGORHIZA (LEMNACEAE)",
+      "year": 1974,
+      "cited_by_count": 5,
+      "fwci": 0.0,
+      "field": "Environmental Science",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1002/j.1537-2197.1974.tb12305.x"
+    },
+    {
+      "id": "https://openalex.org/W2053522810",
+      "x": 7.4056,
+      "y": 0.6961,
+      "cluster": 0,
+      "title": "Morphogenesis of Spirodela oligorrhiza: Ontogenesis of Fronds",
+      "year": 1968,
+      "cited_by_count": 15,
+      "fwci": 1.2295,
+      "field": "Materials Science",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1086/336426"
+    },
+    {
+      "id": "https://openalex.org/W2096137386",
+      "x": 6.5376,
+      "y": 0.6654,
+      "cluster": 0,
+      "title": "Thermomorphogenic and Photoperiodic Responses of Nephrolepis exaltata `Dallas Jewel'",
+      "year": 1993,
+      "cited_by_count": 4,
+      "fwci": 0.0,
+      "field": "Agricultural and Biological Sciences",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.21273/hortsci.28.3.182"
+    },
+    {
+      "id": "https://openalex.org/W1607040807",
+      "x": 6.8606,
+      "y": 0.1599,
+      "cluster": 3,
+      "title": "Size structure and reproduction of Gefidium robusturn (Rhodophyta) in the central part of the Baja California peninsula, Mexico",
+      "year": 1996,
+      "cited_by_count": 4,
+      "fwci": 0.0,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.7773/cm.v22i4.878"
+    },
+    {
+      "id": "https://openalex.org/W2049686686",
+      "x": 3.3356,
+      "y": -0.6381,
+      "cluster": 1,
+      "title": "Some biological interactions affecting intertidal populations of the kelp Egregia laevigata",
+      "year": 1974,
+      "cited_by_count": 84,
+      "fwci": 2.3699,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1007/bf00387297"
+    },
+    {
+      "id": "https://openalex.org/W4239325186",
+      "x": 5.2577,
+      "y": 0.2392,
+      "cluster": 2,
+      "title": "Ecological effects of harvesting Lessonia (Laminariales, Phaeophyta) in central Chile",
+      "year": 1990,
+      "cited_by_count": 47,
+      "fwci": 2.3593,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1007/bf00040213"
+    },
+    {
+      "id": "https://openalex.org/W1978794671",
+      "x": 4.9552,
+      "y": 0.3727,
+      "cluster": 2,
+      "title": "Ecological effects of harvesting Lessonia (Laminariales, Phaeophyta) in central Chile",
+      "year": 1990,
+      "cited_by_count": 35,
+      "fwci": 1.7453,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1007/978-94-009-2049-1_7"
+    },
+    {
+      "id": "https://openalex.org/W4254073417",
+      "x": 6.7725,
+      "y": -0.5221,
+      "cluster": 5,
+      "title": "PHYTOCHROME-MEDIATED STIPE ELONGATION IN THE KELP NEREOCYSTIS (PHAEOPHYCEAE)1",
+      "year": 1980,
+      "cited_by_count": 3,
+      "fwci": 1.1738,
+      "field": "Agricultural and Biological Sciences",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1111/j.0022-3646.1980.00138.x"
+    },
+    {
+      "id": "https://openalex.org/W2018452114",
+      "x": 4.1988,
+      "y": -2.1132,
+      "cluster": 4,
+      "title": "Translocation in the Giant Kelp <i>Macrocystis</i>",
+      "year": 1963,
+      "cited_by_count": 30,
+      "fwci": 4.3518,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1126/science.140.3569.891"
+    },
+    {
+      "id": "https://openalex.org/W1992056674",
+      "x": 3.3024,
+      "y": -0.1499,
+      "cluster": 1,
+      "title": "Effects of petroleum products on bull kelp (Nereocystis luetkeana)",
+      "year": 1995,
+      "cited_by_count": 22,
+      "fwci": 2.0576,
+      "field": "Engineering",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1007/bf00349274"
+    },
+    {
+      "id": "https://openalex.org/W3182772887",
+      "x": 7.0512,
+      "y": -0.555,
+      "cluster": 5,
+      "title": "Scaling and Structural Properties of Juvenile Bull Kelp (<i>Nereocystis luetkeana</i>)",
+      "year": 2021,
+      "cited_by_count": 3,
+      "fwci": 0.382,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1093/iob/obab022"
+    },
+    {
+      "id": "https://openalex.org/W4243243635",
+      "x": 6.373,
+      "y": -0.5536,
+      "cluster": -1,
+      "title": "Effects of the Stipe-Boring Amphipod Peramphithoe stypotrupetes (Corophioidea: Ampithoidae) and Grazing Gastropods on the Kelp Laminaria setchellii",
+      "year": 1993,
+      "cited_by_count": 23,
+      "fwci": 0.4365,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.2307/1549094"
+    },
+    {
+      "id": "https://openalex.org/W2316638787",
+      "x": 7.181,
+      "y": -0.1288,
+      "cluster": 0,
+      "title": "Morphological variation of local &lt;i&gt;Undaria pinnatifida&lt;/i&gt; strains (Laminariales, Phaeophyceae) from Iwate Prefecture, northeastern Japan",
+      "year": 2013,
+      "cited_by_count": 5,
+      "fwci": 0.6071,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.4282/sosj.30.37"
+    },
+    {
+      "id": "https://openalex.org/W9421559",
+      "x": 4.8131,
+      "y": -0.9217,
+      "cluster": 2,
+      "title": "IS THERE EVIDENCE FOR LONG-TERM CLIMATIC CHANGE IN SOUTHERN CALIFORNIA KELP FORESTS?",
+      "year": 1996,
+      "cited_by_count": 56,
+      "fwci": 2.7384,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": false,
+      "doi": null
+    },
+    {
+      "id": "https://openalex.org/W2082063348",
+      "x": 3.9543,
+      "y": -1.2275,
+      "cluster": 1,
+      "title": "Kelp gulls Larus dominicanus as predators in kelp Macrocystis pyrifera beds",
+      "year": 1988,
+      "cited_by_count": 12,
+      "fwci": 0.4155,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1007/bf00379614"
+    },
+    {
+      "id": "https://openalex.org/W101745730",
+      "x": 4.4462,
+      "y": 0.0337,
+      "cluster": 2,
+      "title": "The Stockholm Archipelago",
+      "year": 2008,
+      "cited_by_count": 11,
+      "fwci": 0.6472,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1007/978-3-540-73524-3_14"
+    },
+    {
+      "id": "https://openalex.org/W3082900280",
+      "x": 3.9506,
+      "y": -0.9684,
+      "cluster": 1,
+      "title": "High kelp density attracts fishes except for recruiting cryptobenthic species",
+      "year": 2020,
+      "cited_by_count": 13,
+      "fwci": 1.3072,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1016/j.marenvres.2020.105127"
+    },
+    {
+      "id": "https://openalex.org/W3009600769",
+      "x": 5.7314,
+      "y": -0.7523,
+      "cluster": 5,
+      "title": "Thallus pruning does not enhance survival or growth of a wave-swept kelp",
+      "year": 2020,
+      "cited_by_count": 12,
+      "fwci": 1.8674,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1007/s00227-020-3663-5"
+    },
+    {
+      "id": "https://openalex.org/W4236413418",
+      "x": 6.2243,
+      "y": -0.3306,
+      "cluster": 5,
+      "title": "EFFECTS OF THE ENCRUSTING BRYOZOAN, MEMBRANIPORA MEMBRANACEA, ON THE LOSS OF BLADES AND FRONDS BY THE GIANT KELP, MACROCYSTIS PYRIFERA (LAMINARIALES)",
+      "year": 1981,
+      "cited_by_count": 60,
+      "fwci": 1.9609,
+      "field": "Agricultural and Biological Sciences",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1111/j.1529-8817.1981.tb03120.x"
+    },
+    {
+      "id": "https://openalex.org/W2083418399",
+      "x": 4.4101,
+      "y": -1.5118,
+      "cluster": 2,
+      "title": "Effects of El Niño on local hydrography and growth of the giant kelp, <i>Macrocystis pyrifera</i>, at Santa Catalina Island, California1",
+      "year": 1985,
+      "cited_by_count": 90,
+      "fwci": 3.6576,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.4319/lo.1985.30.6.1298"
+    },
+    {
+      "id": "https://openalex.org/W2054817229",
+      "x": 6.6973,
+      "y": 0.1298,
+      "cluster": 3,
+      "title": "Morphological relationships among fronds of giant kelp Macrocystis pyrifera off La Jolla, California",
+      "year": 1985,
+      "cited_by_count": 11,
+      "fwci": 1.8288,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.3354/meps026261"
+    },
+    {
+      "id": "https://openalex.org/W2052736383",
+      "x": 3.5494,
+      "y": -1.3474,
+      "cluster": 3,
+      "title": "Life-span of the Fronds of the Giant Kelp, Macrocystis pyrifera",
+      "year": 1961,
+      "cited_by_count": 22,
+      "fwci": 1.8055,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1038/1901214a0"
+    },
+    {
+      "id": "https://openalex.org/W2017869023",
+      "x": 3.7855,
+      "y": -1.9654,
+      "cluster": 4,
+      "title": "Dispersal of faunal and floral propagules associated with drifting Macrocystis pyrifera plants",
+      "year": 1987,
+      "cited_by_count": 113,
+      "fwci": 0.9065,
+      "field": "Earth and Planetary Sciences",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1007/bf00393104"
+    }
+  ],
+  "clusters": [
+    {
+      "label": 4,
+      "is_noise": false,
+      "size": 18,
+      "total_citations": 1210,
+      "mean_citations": 67.2,
+      "mean_fwci": 1.88,
+      "n_top_10_percent": 4,
+      "top_fields": [
+        [
+          "Earth and Planetary Sciences",
+          14
+        ],
+        [
+          "Environmental Science",
+          4
+        ]
+      ],
+      "top_topics": [
+        [
+          "Marine and coastal plant biology",
+          11
+        ],
+        [
+          "Coastal wetland ecosystem dynamics",
+          4
+        ],
+        [
+          "Coastal and Marine Dynamics",
+          1
+        ]
+      ],
+      "top_domains": [
+        [
+          "Physical Sciences",
+          18
+        ]
+      ],
+      "top_keywords": [
+        [
+          "Kelp",
+          17
+        ],
+        [
+          "Biology",
+          17
+        ],
+        [
+          "Ecology",
+          17
+        ],
+        [
+          "Kelp forest",
+          11
+        ],
+        [
+          "Environmental science",
+          10
+        ]
+      ],
+      "representative": {
+        "title": "Interaction of waves and currents with kelp forests (<i>Macrocystis pyrifera</i>): Insights from a dynamically scaled laboratory model",
+        "id": "https://openalex.org/W2114070444",
+        "cited_by_count": 42
+      },
+      "description": "These papers center on the biophysical ecology of kelp forests, asking how waves, currents, and turbulence interact with kelp morphology to shape both organism performance and the surrounding flow environment. They use a combination of field measurements, numerical/hydrodynamic modeling, and dynamically scaled laboratory experiments to quantify drag, force transmission, reconfiguration, particle and spore transport, and canopy-mediated mixing. Together, they treat kelp not just as passive habitat-formers but as flexible engineers whose mechanics alter local hydrodynamics and whose survival and ecological effects depend on that fluid–structure coupling."
+    },
+    {
+      "label": 2,
+      "is_noise": false,
+      "size": 16,
+      "total_citations": 798,
+      "mean_citations": 49.9,
+      "mean_fwci": 3.3,
+      "n_top_10_percent": 8,
+      "top_fields": [
+        [
+          "Earth and Planetary Sciences",
+          15
+        ],
+        [
+          "Environmental Science",
+          1
+        ]
+      ],
+      "top_topics": [
+        [
+          "Marine and coastal plant biology",
+          14
+        ],
+        [
+          "Coastal wetland ecosystem dynamics",
+          1
+        ],
+        [
+          "Marine and coastal ecosystems",
+          1
+        ]
+      ],
+      "top_domains": [
+        [
+          "Physical Sciences",
+          16
+        ]
+      ],
+      "top_keywords": [
+        [
+          "Biology",
+          15
+        ],
+        [
+          "Kelp",
+          14
+        ],
+        [
+          "Ecology",
+          14
+        ],
+        [
+          "Kelp forest",
+          12
+        ],
+        [
+          "Canopy",
+          11
+        ]
+      ],
+      "representative": {
+        "title": "Physical and Biological Consequences of Giant Kelp (Macrocystis Pyrifera) Removals Within a Central California Kelp Forest",
+        "id": "https://openalex.org/W2995337561",
+        "cited_by_count": 1
+      },
+      "description": "These studies focus on kelp forests as foundation ecosystems whose structure, productivity, and persistence are strongly shaped by physical forcing and disturbance. Using a mix of long-term field monitoring, hydrodynamic measurements, manipulative removal experiments, historical surveys, and meta-analysis, they examine how waves, currents, storms, and climate-driven oceanographic regimes affect kelp demography, community succession, habitat function, and ecosystem services such as wave attenuation. Taken together, they link the ecology of canopy-forming kelps to both bottom-up environmental variability and the broader physical role kelp beds play in coastal systems."
+    },
+    {
+      "label": 5,
+      "is_noise": false,
+      "size": 10,
+      "total_citations": 426,
+      "mean_citations": 42.6,
+      "mean_fwci": 2.25,
+      "n_top_10_percent": 3,
+      "top_fields": [
+        [
+          "Earth and Planetary Sciences",
+          8
+        ],
+        [
+          "Agricultural and Biological Sciences",
+          2
+        ]
+      ],
+      "top_topics": [
+        [
+          "Marine and coastal plant biology",
+          8
+        ],
+        [
+          "Plant Diversity and Evolution",
+          1
+        ],
+        [
+          "Aquaculture Nutrition and Growth",
+          1
+        ]
+      ],
+      "top_domains": [
+        [
+          "Physical Sciences",
+          8
+        ],
+        [
+          "Life Sciences",
+          2
+        ]
+      ],
+      "top_keywords": [
+        [
+          "Kelp",
+          10
+        ],
+        [
+          "Biology",
+          10
+        ],
+        [
+          "Kelp forest",
+          8
+        ],
+        [
+          "Ecology",
+          8
+        ],
+        [
+          "Botany",
+          8
+        ]
+      ],
+      "representative": {
+        "title": "Wave exposure influences kelp morphological and biomechanical phenotypic plasticity",
+        "id": "https://openalex.org/W4402794739",
+        "cited_by_count": 3
+      },
+      "description": "These papers collectively examine how kelps survive in mechanically stressful coastal habitats by linking morphology, tissue material properties, and hydrodynamic loading. Using field surveys, comparative biomechanics, scaling analyses, and experiments across wave-exposure gradients, they show that kelps adjust blade shape, stipe structure, and tissue strength plastically with size, season, and local flow conditions, and that damage from herbivores or encrusting invaders can weaken these defenses. Together, they frame kelps as flexible “engineering” organisms whose performance and survival depend on the interaction between growth form and the physical environment."
+    },
+    {
+      "label": 1,
+      "is_noise": false,
+      "size": 7,
+      "total_citations": 275,
+      "mean_citations": 39.3,
+      "mean_fwci": 1.56,
+      "n_top_10_percent": 0,
+      "top_fields": [
+        [
+          "Earth and Planetary Sciences",
+          6
+        ],
+        [
+          "Engineering",
+          1
+        ]
+      ],
+      "top_topics": [
+        [
+          "Marine and coastal plant biology",
+          6
+        ],
+        [
+          "Materials Engineering and Processing",
+          1
+        ]
+      ],
+      "top_domains": [
+        [
+          "Physical Sciences",
+          7
+        ]
+      ],
+      "top_keywords": [
+        [
+          "Kelp",
+          7
+        ],
+        [
+          "Biology",
+          7
+        ],
+        [
+          "Kelp forest",
+          6
+        ],
+        [
+          "Ecology",
+          6
+        ],
+        [
+          "Algae",
+          3
+        ]
+      ],
+      "representative": {
+        "title": "Wasted effort: recruitment and persistence of kelp on algal turf",
+        "id": "https://openalex.org/W2810188242",
+        "cited_by_count": 26
+      },
+      "description": "These studies center on kelp beds as structured coastal habitats and on the biological and environmental factors that shape kelp recruitment, persistence, and community function. Using field surveys, manipulative experiments, and community-ecology measurements, they examine how turf algae, biotic interactions, pollutants, predators, and bed architecture influence kelp establishment and the organisms associated with kelp forests, linking habitat degradation or alteration to broader ecosystem consequences."
+    },
+    {
+      "label": 0,
+      "is_noise": false,
+      "size": 9,
+      "total_citations": 62,
+      "mean_citations": 6.9,
+      "mean_fwci": 0.49,
+      "n_top_10_percent": 0,
+      "top_fields": [
+        [
+          "Agricultural and Biological Sciences",
+          3
+        ],
+        [
+          "Earth and Planetary Sciences",
+          3
+        ],
+        [
+          "Environmental Science",
+          2
+        ]
+      ],
+      "top_topics": [
+        [
+          "Marine and coastal plant biology",
+          3
+        ],
+        [
+          "Lichen and fungal ecology",
+          1
+        ],
+        [
+          "Oil Palm Production and Sustainability",
+          1
+        ]
+      ],
+      "top_domains": [
+        [
+          "Physical Sciences",
+          6
+        ],
+        [
+          "Life Sciences",
+          3
+        ]
+      ],
+      "top_keywords": [
+        [
+          "Botany",
+          9
+        ],
+        [
+          "Biology",
+          9
+        ],
+        [
+          "Frond",
+          8
+        ],
+        [
+          "Horticulture",
+          7
+        ],
+        [
+          "Nutrient",
+          2
+        ]
+      ],
+      "representative": {
+        "title": "Abscission and the Axillary Frond in Spirodela oligorhiza (Lemnaceae)",
+        "id": "https://openalex.org/W4247180896",
+        "cited_by_count": 4
+      },
+      "description": "These studies center on the biology of fronds as a key leafy organ in ferns, palms, and aquatic plants, with attention to how frond structure, development, and function vary across species and conditions. Methodologically, they combine detailed morphological and anatomical observation with physiological measurements and experimental manipulations of environment, nutrient status, or developmental stage to track traits such as nutrient content, growth, abscission, decomposition, and ontogeny. What unites them is a common effort to understand fronds as dynamic organs whose form and turnover reflect both intrinsic developmental programs and external ecological constraints."
+    },
+    {
+      "label": 3,
+      "is_noise": false,
+      "size": 5,
+      "total_citations": 58,
+      "mean_citations": 11.6,
+      "mean_fwci": 1.57,
+      "n_top_10_percent": 1,
+      "top_fields": [
+        [
+          "Earth and Planetary Sciences",
+          5
+        ]
+      ],
+      "top_topics": [
+        [
+          "Marine and coastal plant biology",
+          5
+        ]
+      ],
+      "top_domains": [
+        [
+          "Physical Sciences",
+          5
+        ]
+      ],
+      "top_keywords": [
+        [
+          "Biology",
+          5
+        ],
+        [
+          "Frond",
+          4
+        ],
+        [
+          "Botany",
+          4
+        ],
+        [
+          "Algae",
+          3
+        ],
+        [
+          "Oceanography",
+          3
+        ]
+      ],
+      "representative": {
+        "title": "Giant kelp (Macrocystis pyrifera) morphological and reproductive strategies in two contrasting sub-Antarctic forests",
+        "id": "https://openalex.org/W4388763856",
+        "cited_by_count": 11
+      },
+      "description": "These studies focus on the structure, growth, and reproductive dynamics of large marine macroalgae, especially giant kelp and related seaweeds, with an emphasis on how fronds vary in size, architecture, and function across individuals and environments. Methodologically, they combine field sampling of frond size and reproductive state with quantitative, often allometric or idealized, modeling of within-frond and between-frond relationships, aiming to explain how morphology, age/lifespan, depth, and site conditions shape kelp forest form and reproduction."
+    },
+    {
+      "label": -1,
+      "is_noise": true,
+      "size": 5,
+      "total_citations": 174,
+      "mean_citations": 34.8,
+      "mean_fwci": 1.32,
+      "n_top_10_percent": 1,
+      "top_fields": [
+        [
+          "Earth and Planetary Sciences",
+          4
+        ],
+        [
+          "Environmental Science",
+          1
+        ]
+      ],
+      "top_topics": [
+        [
+          "Marine and coastal plant biology",
+          4
+        ],
+        [
+          "Ecosystem dynamics and resilience",
+          1
+        ]
+      ],
+      "top_domains": [
+        [
+          "Physical Sciences",
+          5
+        ]
+      ],
+      "top_keywords": [
+        [
+          "Kelp",
+          4
+        ],
+        [
+          "Ecology",
+          4
+        ],
+        [
+          "Biology",
+          4
+        ],
+        [
+          "Kelp forest",
+          3
+        ],
+        [
+          "Oceanography",
+          2
+        ]
+      ],
+      "representative": {
+        "title": "Interactive roles of mesograzers and current flow in survival of kelps",
+        "id": "https://openalex.org/W2002026996",
+        "cited_by_count": 112
+      },
+      "description": null
+    }
+  ]
+}

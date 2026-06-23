@@ -19,6 +19,8 @@ import argparse
 import json
 from pathlib import Path
 
+import numpy as np
+
 from openalex_cli.client import OpenAlexClient, Work
 from openalex_cli.clustering import (
     _reduce,
@@ -39,6 +41,18 @@ TOPICS = [
 ]
 
 TARGET_WORKS = 70  # richer than the semantic 50-cap, via related-works expansion
+MIN_CLUSTER_SIZE = 5  # larger than the CLI default (2): fewer, cleaner clusters for the viz
+
+
+def _json_default(o):
+    """Coerce numpy scalars so json.dumps can serialize cluster data."""
+    if isinstance(o, np.bool_):
+        return bool(o)
+    if isinstance(o, np.integer):
+        return int(o)
+    if isinstance(o, np.floating):
+        return float(o)
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
 
 
 def fetch_works(oa: OpenAlexClient, query: str, target: int) -> list[Work]:
@@ -132,6 +146,8 @@ def main() -> None:
     parser.add_argument("--no-describe", action="store_true", help="Skip GPT descriptions.")
     parser.add_argument("--only", help="Generate just one topic by slug.")
     parser.add_argument("--target", type=int, default=TARGET_WORKS, help="Works per dataset.")
+    parser.add_argument("--min-cluster-size", type=int, default=MIN_CLUSTER_SIZE, help="HDBSCAN min cluster size.")
+    parser.add_argument("--k", type=int, default=None, help="Force KMeans with k clusters instead of HDBSCAN.")
     args = parser.parse_args()
 
     settings = load_settings()
@@ -155,18 +171,24 @@ def main() -> None:
             print(f"  fetched {len(works)} works; embedding...")
             embeddings = embed_works(works, settings.openai_api_key, settings.openai_embed_model)
             print("  clustering...")
-            clusters, n_clusters = cluster_works(works, embeddings, k=None)
+            clusters, n_clusters = cluster_works(
+                works, embeddings, k=args.k, min_cluster_size=args.min_cluster_size
+            )
             print(f"  {n_clusters} clusters (+{sum(c.is_noise for c in clusters)} noise group)")
             if not args.no_describe:
                 print("  describing clusters with GPT...")
-                try:
-                    describe_clusters(clusters, settings.openai_api_key, settings.openai_describe_model)
+                try:  # describe only real clusters, not the outlier group
+                    describe_clusters(
+                        [c for c in clusters if not c.is_noise],
+                        settings.openai_api_key,
+                        settings.openai_describe_model,
+                    )
                 except Exception as e:  # noqa: BLE001 — don't lose the dataset over a describe failure
                     print(f"  WARNING: describe failed ({e}); leaving descriptions empty.")
 
             dataset = build_dataset(topic, works, embeddings, clusters, n_clusters)
             out = DATA_DIR / f"{topic['slug']}.json"
-            out.write_text(json.dumps(dataset, ensure_ascii=False, indent=2))
+            out.write_text(json.dumps(dataset, ensure_ascii=False, indent=2, default=_json_default))
             print(f"  wrote {out.relative_to(HERE.parent)}")
             index.append(
                 {

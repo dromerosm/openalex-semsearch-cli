@@ -1,0 +1,25 @@
+{
+  "examples": [
+    {
+      "slug": "llm-for-code",
+      "title": "LLMs for code",
+      "query": "large language models for code generation",
+      "n_works": 70,
+      "n_clusters": 5
+    },
+    {
+      "slug": "crispr-off-target",
+      "title": "CRISPR off-target effects",
+      "query": "CRISPR off-target effects",
+      "n_works": 70,
+      "n_clusters": 7
+    },
+    {
+      "slug": "kelp-biomechanics",
+      "title": "Kelp forest biomechanics",
+      "query": "kelp forest biomechanics and wave drag",
+      "n_works": 70,
+      "n_clusters": 6
+    }
+  ]
+}

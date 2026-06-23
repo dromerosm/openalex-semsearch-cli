@@ -1,0 +1,1374 @@
+{
+  "slug": "crispr-off-target",
+  "title": "CRISPR off-target effects",
+  "query": "CRISPR off-target effects",
+  "mode": "semantic",
+  "n_works": 70,
+  "n_clusters": 7,
+  "points": [
+    {
+      "id": "https://openalex.org/W2173737475",
+      "x": 3.1277,
+      "y": 6.1712,
+      "cluster": 5,
+      "title": "Off-target Effects in CRISPR/Cas9-mediated Genome Engineering",
+      "year": 2015,
+      "cited_by_count": 1293,
+      "fwci": 21.6886,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1038/mtna.2015.37"
+    },
+    {
+      "id": "https://openalex.org/W2252568502",
+      "x": 2.3827,
+      "y": 6.1214,
+      "cluster": -1,
+      "title": "Optimized sgRNA design to maximize activity and minimize off-target effects of CRISPR-Cas9",
+      "year": 2016,
+      "cited_by_count": 4975,
+      "fwci": 162.2751,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1038/nbt.3437"
+    },
+    {
+      "id": "https://openalex.org/W2224398381",
+      "x": 4.2776,
+      "y": 6.2839,
+      "cluster": -1,
+      "title": "High-fidelity CRISPR–Cas9 nucleases with no detectable genome-wide off-target effects",
+      "year": 2016,
+      "cited_by_count": 2693,
+      "fwci": 189.2657,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1038/nature16526"
+    },
+    {
+      "id": "https://openalex.org/W2085993152",
+      "x": 4.5856,
+      "y": 6.9319,
+      "cluster": 1,
+      "title": "Digenome-seq: genome-wide profiling of CRISPR-Cas9 off-target effects in human cells",
+      "year": 2015,
+      "cited_by_count": 1018,
+      "fwci": 55.4243,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1038/nmeth.3284"
+    },
+    {
+      "id": "https://openalex.org/W2163445749",
+      "x": 2.8735,
+      "y": 6.4796,
+      "cluster": -1,
+      "title": "Efficient genome modification by CRISPR-Cas9 nickase with minimal off-target effects",
+      "year": 2014,
+      "cited_by_count": 838,
+      "fwci": 42.4143,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1038/nmeth.2857"
+    },
+    {
+      "id": "https://openalex.org/W3004490498",
+      "x": 2.4696,
+      "y": 6.5286,
+      "cluster": 5,
+      "title": "CRISPR/Cas Systems in Genome Editing: Methodologies and Tools for sgRNA Design, Off‐Target Evaluation, and Strategies to Mitigate Off‐Target Effects",
+      "year": 2020,
+      "cited_by_count": 360,
+      "fwci": 16.5063,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1002/advs.201902312"
+    },
+    {
+      "id": "https://openalex.org/W2134268326",
+      "x": 2.0191,
+      "y": 7.317,
+      "cluster": 6,
+      "title": "Efficient CRISPR/Cas9 genome editing with low off-target effects in zebrafish",
+      "year": 2013,
+      "cited_by_count": 498,
+      "fwci": 22.592,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1242/dev.099085"
+    },
+    {
+      "id": "https://openalex.org/W4323666400",
+      "x": 2.9412,
+      "y": 7.4303,
+      "cluster": 2,
+      "title": "Off-target effects in CRISPR/Cas9 gene editing",
+      "year": 2023,
+      "cited_by_count": 544,
+      "fwci": 77.0588,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.3389/fbioe.2023.1143157"
+    },
+    {
+      "id": "https://openalex.org/W3038956601",
+      "x": 2.9679,
+      "y": 6.8918,
+      "cluster": 1,
+      "title": "Latest Developed Strategies to Minimize the Off-Target Effects in CRISPR-Cas-Mediated Genome Editing",
+      "year": 2020,
+      "cited_by_count": 451,
+      "fwci": 22.1717,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.3390/cells9071608"
+    },
+    {
+      "id": "https://openalex.org/W3012033772",
+      "x": 3.3222,
+      "y": 5.2862,
+      "cluster": 3,
+      "title": "CRISPR-Cas12a has widespread off-target and dsDNA-nicking effects",
+      "year": 2020,
+      "cited_by_count": 160,
+      "fwci": 7.7544,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1074/jbc.ra120.012933"
+    },
+    {
+      "id": "https://openalex.org/W4220803283",
+      "x": 3.0876,
+      "y": 5.6634,
+      "cluster": 3,
+      "title": "CRISPR/Cas13 effectors have differing extents of off-target effects that limit their utility in eukaryotic cells",
+      "year": 2022,
+      "cited_by_count": 151,
+      "fwci": 12.8201,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1093/nar/gkac159"
+    },
+    {
+      "id": "https://openalex.org/W2921808963",
+      "x": 4.1395,
+      "y": 5.7877,
+      "cluster": 4,
+      "title": "Deciphering Off-Target Effects in CRISPR-Cas9 through Accelerated Molecular Dynamics",
+      "year": 2019,
+      "cited_by_count": 152,
+      "fwci": 6.8379,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1021/acscentsci.9b00020"
+    },
+    {
+      "id": "https://openalex.org/W3119382661",
+      "x": 3.6937,
+      "y": 7.1053,
+      "cluster": -1,
+      "title": "Improved analysis of CRISPR fitness screens and reduced off-target effects with the BAGEL2 gene essentiality classifier",
+      "year": 2021,
+      "cited_by_count": 148,
+      "fwci": 13.7602,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1186/s13073-020-00809-3"
+    },
+    {
+      "id": "https://openalex.org/W2971775201",
+      "x": 3.8606,
+      "y": 6.8769,
+      "cluster": 5,
+      "title": "Mitigation of off-target toxicity in CRISPR-Cas9 screens for essential non-coding elements",
+      "year": 2019,
+      "cited_by_count": 166,
+      "fwci": 6.24,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1038/s41467-019-11955-7"
+    },
+    {
+      "id": "https://openalex.org/W3106735065",
+      "x": 3.5209,
+      "y": 6.3963,
+      "cluster": 4,
+      "title": "Which Factors Affect the Occurrence of Off-Target Effects Caused by the Use of CRISPR/Cas: A Systematic Review in Plants",
+      "year": 2020,
+      "cited_by_count": 138,
+      "fwci": 7.9185,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.3389/fpls.2020.574959"
+    },
+    {
+      "id": "https://openalex.org/W3012635299",
+      "x": 2.3763,
+      "y": 7.9732,
+      "cluster": 2,
+      "title": "Mitigating off-target effects in CRISPR/Cas9-mediated in vivo gene editing",
+      "year": 2020,
+      "cited_by_count": 125,
+      "fwci": 5.5021,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1007/s00109-020-01893-z"
+    },
+    {
+      "id": "https://openalex.org/W3032125464",
+      "x": 3.7051,
+      "y": 7.7846,
+      "cluster": 1,
+      "title": "Detection of Deleterious On-Target Effects after HDR-Mediated CRISPR Editing",
+      "year": 2020,
+      "cited_by_count": 132,
+      "fwci": 7.8377,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1016/j.celrep.2020.107689"
+    },
+    {
+      "id": "https://openalex.org/W2509627032",
+      "x": 2.1677,
+      "y": 7.5698,
+      "cluster": 6,
+      "title": "Multiplex gene editing via CRISPR/Cas9 exhibits desirable muscle hypertrophy without detectable off-target effects in sheep",
+      "year": 2016,
+      "cited_by_count": 110,
+      "fwci": 4.5271,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1038/srep32271"
+    },
+    {
+      "id": "https://openalex.org/W2964465883",
+      "x": 1.0216,
+      "y": 5.9688,
+      "cluster": 6,
+      "title": "Strategies to Increase On-Target and Reduce Off-Target Effects of the CRISPR/Cas9 System in Plants",
+      "year": 2019,
+      "cited_by_count": 108,
+      "fwci": 4.1885,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.3390/ijms20153719"
+    },
+    {
+      "id": "https://openalex.org/W2945691418",
+      "x": 3.26,
+      "y": 7.1808,
+      "cluster": 1,
+      "title": "Evaluation and Reduction of CRISPR Off-Target Cleavage Events",
+      "year": 2019,
+      "cited_by_count": 117,
+      "fwci": 5.5537,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1089/nat.2019.0790"
+    },
+    {
+      "id": "https://openalex.org/W2888693017",
+      "x": 2.9377,
+      "y": 6.9176,
+      "cluster": -1,
+      "title": "Strategies for controlling CRISPR/Cas9 off-target effects and biological variations in mammalian genome editing experiments",
+      "year": 2018,
+      "cited_by_count": 95,
+      "fwci": 4.9168,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1016/j.jbiotec.2018.08.007"
+    },
+    {
+      "id": "https://openalex.org/W2527347512",
+      "x": 0.7341,
+      "y": 5.8827,
+      "cluster": 6,
+      "title": "Achieving Plant CRISPR Targeting that Limits Off‐Target Effects",
+      "year": 2016,
+      "cited_by_count": 94,
+      "fwci": 5.9199,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.3835/plantgenome2016.05.0047"
+    },
+    {
+      "id": "https://openalex.org/W2562658921",
+      "x": 3.4947,
+      "y": 5.7635,
+      "cluster": 3,
+      "title": "731. High-Fidelity CRISPR-Cas9 Nucleases with No Detectable Genome-Wide Off-Target Effects",
+      "year": 2016,
+      "cited_by_count": 65,
+      "fwci": 6.6164,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1016/s1525-0016(16)33539-0"
+    },
+    {
+      "id": "https://openalex.org/W4391033788",
+      "x": 2.9741,
+      "y": 8.3518,
+      "cluster": 2,
+      "title": "Beyond the promise: evaluating and mitigating off-target effects in CRISPR gene editing for safer therapeutics",
+      "year": 2024,
+      "cited_by_count": 63,
+      "fwci": 12.8591,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.3389/fbioe.2023.1339189"
+    },
+    {
+      "id": "https://openalex.org/W1743052068",
+      "x": 2.7256,
+      "y": 5.2734,
+      "cluster": 3,
+      "title": "Off‐target assessment of <scp>CRISPR</scp>‐<scp>C</scp>as9 guiding <scp>RNA</scp>s in human i<scp>PS</scp> and mouse <scp>ES</scp> cells",
+      "year": 2014,
+      "cited_by_count": 67,
+      "fwci": 3.7005,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1002/dvg.22835"
+    },
+    {
+      "id": "https://openalex.org/W2883859031",
+      "x": 4.8217,
+      "y": 7.321,
+      "cluster": 1,
+      "title": "Unexpected CRISPR on-target effects",
+      "year": 2018,
+      "cited_by_count": 48,
+      "fwci": 2.3197,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1038/nbt.4207"
+    },
+    {
+      "id": "https://openalex.org/W3007871864",
+      "x": 4.3612,
+      "y": 7.4052,
+      "cluster": 1,
+      "title": "CRISPR system: Discovery, development and off-target detection",
+      "year": 2020,
+      "cited_by_count": 60,
+      "fwci": 3.1675,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1016/j.cellsig.2020.109577"
+    },
+    {
+      "id": "https://openalex.org/W2800792493",
+      "x": 3.4089,
+      "y": 6.536,
+      "cluster": 4,
+      "title": "Impact of Genetic Variation on CRISPR-Cas Targeting",
+      "year": 2018,
+      "cited_by_count": 36,
+      "fwci": 1.299,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1089/crispr.2017.0016"
+    },
+    {
+      "id": "https://openalex.org/W4413051598",
+      "x": 3.0931,
+      "y": 7.8869,
+      "cluster": 2,
+      "title": "Off-target effects in CRISPR-Cas genome editing for human therapeutics: Progress and challenges",
+      "year": 2025,
+      "cited_by_count": 49,
+      "fwci": 27.0331,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1016/j.omtn.2025.102636"
+    },
+    {
+      "id": "https://openalex.org/W3004567324",
+      "x": 3.9766,
+      "y": 5.4872,
+      "cluster": 4,
+      "title": "Specificity profiling of CRISPR system reveals greatly enhanced off-target gene editing",
+      "year": 2020,
+      "cited_by_count": 30,
+      "fwci": 1.9178,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1038/s41598-020-58627-x"
+    },
+    {
+      "id": "https://openalex.org/W2940495722",
+      "x": 2.7274,
+      "y": 7.861,
+      "cluster": 2,
+      "title": "Off-target genome editing: A new discipline of gene science and a new class of medicine",
+      "year": 2019,
+      "cited_by_count": 23,
+      "fwci": 1.1113,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1007/s10565-019-09475-7"
+    },
+    {
+      "id": "https://openalex.org/W4240202197",
+      "x": 5.0496,
+      "y": 7.1652,
+      "cluster": 1,
+      "title": "Keep off-target effects in focus",
+      "year": 2018,
+      "cited_by_count": 17,
+      "fwci": 3.0852,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1038/s41591-018-0150-3"
+    },
+    {
+      "id": "https://openalex.org/W4404107291",
+      "x": 3.9123,
+      "y": 5.944,
+      "cluster": -1,
+      "title": "Seed sequences mediate off-target activity in the CRISPR-interference system",
+      "year": 2024,
+      "cited_by_count": 14,
+      "fwci": 2.8293,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1016/j.xgen.2024.100693"
+    },
+    {
+      "id": "https://openalex.org/W2946473782",
+      "x": 3.3074,
+      "y": 8.1804,
+      "cluster": 2,
+      "title": "Quantifying CRISPR off-target effects",
+      "year": 2019,
+      "cited_by_count": 21,
+      "fwci": 0.769,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1042/etls20180146"
+    },
+    {
+      "id": "https://openalex.org/W1862162016",
+      "x": 2.1613,
+      "y": 6.741,
+      "cluster": 5,
+      "title": "Progress of application and off-target effects of CRISPR/Cas9.",
+      "year": 2015,
+      "cited_by_count": 10,
+      "fwci": 0.9037,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.16288/j.yczz.15-070"
+    },
+    {
+      "id": "https://openalex.org/W2001799395",
+      "x": 4.9636,
+      "y": 6.8515,
+      "cluster": 1,
+      "title": "Characterizing CRISPR off-target effects",
+      "year": 2013,
+      "cited_by_count": 4,
+      "fwci": 0.298,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1038/nrg3651"
+    },
+    {
+      "id": "https://openalex.org/W4366777773",
+      "x": 3.8586,
+      "y": 6.0075,
+      "cluster": 4,
+      "title": "Off-Target Effects Of CRISPR/Cas9 and Their Solutions",
+      "year": 2023,
+      "cited_by_count": 4,
+      "fwci": 0.5706,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.54097/hset.v45i.7444"
+    },
+    {
+      "id": "https://openalex.org/W4404032153",
+      "x": 3.632,
+      "y": 8.4253,
+      "cluster": 2,
+      "title": "Comprehensive analysis of off-target and on-target effects resulting from liver-directed CRISPR-Cas9-mediated gene targeting with AAV vectors",
+      "year": 2024,
+      "cited_by_count": 11,
+      "fwci": 2.2064,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1016/j.omtm.2024.101365"
+    },
+    {
+      "id": "https://openalex.org/W1987377531",
+      "x": 4.2474,
+      "y": 6.96,
+      "cluster": -1,
+      "title": "Integrating GWASs and protein interactions",
+      "year": 2013,
+      "cited_by_count": 2,
+      "fwci": 0.149,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1038/nrg3653"
+    },
+    {
+      "id": "https://openalex.org/W4391277250",
+      "x": 3.6628,
+      "y": 6.2564,
+      "cluster": -1,
+      "title": "The Challenge Facing CRISPR/Cas9 System: Off-Target Effects and Their Optimization",
+      "year": 2023,
+      "cited_by_count": 1,
+      "fwci": 0.1454,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.54097/psd28z73"
+    },
+    {
+      "id": "https://openalex.org/W4310565018",
+      "x": 3.8183,
+      "y": 7.6397,
+      "cluster": 1,
+      "title": "Advances in Off-Target Detection for CRISPR-Based Genome Editing",
+      "year": 2022,
+      "cited_by_count": 3,
+      "fwci": 0.1736,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1089/hum.2022.198"
+    },
+    {
+      "id": "https://openalex.org/W2766384329",
+      "x": 2.943,
+      "y": 4.973,
+      "cluster": 3,
+      "title": "Comparison of the Off-Target Effects Among One-Base to Three-Base Mismatched Targets of gRNA Using a Blue to White Assay",
+      "year": 2017,
+      "cited_by_count": 6,
+      "fwci": 0.5608,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1166/jnn.2018.13813"
+    },
+    {
+      "id": "https://openalex.org/W3084546431",
+      "x": 4.2531,
+      "y": 8.0721,
+      "cluster": 1,
+      "title": "Detection of CRISPR/Cas9-Generated Off-Target Effect by Integration-Defective Lentiviral Vector",
+      "year": 2020,
+      "cited_by_count": 5,
+      "fwci": 1.1845,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1007/978-1-0716-0687-2_14"
+    },
+    {
+      "id": "https://openalex.org/W4288732196",
+      "x": 4.5403,
+      "y": 7.317,
+      "cluster": 1,
+      "title": "Systematicidentification of CRISPR off-target effects by CROss-seq",
+      "year": 2022,
+      "cited_by_count": 5,
+      "fwci": 0.434,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1093/procel/pwac018"
+    },
+    {
+      "id": "https://openalex.org/W4311501380",
+      "x": 1.5455,
+      "y": 6.0668,
+      "cluster": 0,
+      "title": "Elevated expression of exogenous RAD51 enhances the CRISPR/Cas9-mediated genome editing efficiency",
+      "year": 2023,
+      "cited_by_count": 12,
+      "fwci": 1.7043,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.5483/bmbrep.2022-0149"
+    },
+    {
+      "id": "https://openalex.org/W2603161682",
+      "x": 2.4641,
+      "y": 7.0228,
+      "cluster": 5,
+      "title": "Temperature effect on CRISPR-Cas9 mediated genome editing",
+      "year": 2017,
+      "cited_by_count": 108,
+      "fwci": 3.369,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1016/j.jgg.2017.03.004"
+    },
+    {
+      "id": "https://openalex.org/W2807464733",
+      "x": 1.7989,
+      "y": 8.0057,
+      "cluster": 0,
+      "title": "CRISPR/Cas9 system: A promising technology for the treatment of inherited and neoplastic hematological diseases",
+      "year": 2018,
+      "cited_by_count": 18,
+      "fwci": 1.206,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1002/acg2.10"
+    },
+    {
+      "id": "https://openalex.org/W2516842346",
+      "x": 1.4424,
+      "y": 7.3483,
+      "cluster": 0,
+      "title": "Therapeutic applications of CRISPR RNA-guided genome editing",
+      "year": 2016,
+      "cited_by_count": 25,
+      "fwci": 2.0894,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1093/bfgp/elw032"
+    },
+    {
+      "id": "https://openalex.org/W2903635918",
+      "x": 1.3271,
+      "y": 6.6991,
+      "cluster": 0,
+      "title": "Chemical transformation mediated CRISPR/Cas9 genome editing in Escherichia coli",
+      "year": 2018,
+      "cited_by_count": 15,
+      "fwci": 0.6495,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1007/s10529-018-02639-1"
+    },
+    {
+      "id": "https://openalex.org/W2437118042",
+      "x": 1.0685,
+      "y": 6.8477,
+      "cluster": 0,
+      "title": "CRISPR/Cas in genome defense and gene editing",
+      "year": 2016,
+      "cited_by_count": 3,
+      "fwci": 0.1741,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1515/acs-2016-0012"
+    },
+    {
+      "id": "https://openalex.org/W3052741125",
+      "x": 0.3754,
+      "y": 6.3934,
+      "cluster": 6,
+      "title": "Virus-Based CRISPR/Cas9 Genome Editing in Plants",
+      "year": 2020,
+      "cited_by_count": 32,
+      "fwci": 1.4171,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1016/j.tig.2020.08.002"
+    },
+    {
+      "id": "https://openalex.org/W2466284841",
+      "x": 1.4768,
+      "y": 7.8921,
+      "cluster": 0,
+      "title": "CRISPR-Cas9 technology: applications and human disease modelling",
+      "year": 2016,
+      "cited_by_count": 73,
+      "fwci": 1.9152,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1093/bfgp/elw025"
+    },
+    {
+      "id": "https://openalex.org/W3031743663",
+      "x": 0.4645,
+      "y": 6.2006,
+      "cluster": 6,
+      "title": "Precision genome editing in plants: state-of-the-art in CRISPR/Cas9-based genome engineering",
+      "year": 2020,
+      "cited_by_count": 263,
+      "fwci": 12.4214,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1186/s12870-020-02385-5"
+    },
+    {
+      "id": "https://openalex.org/W2770127492",
+      "x": 1.8691,
+      "y": 5.4693,
+      "cluster": 0,
+      "title": "Structure-guided chemical modification of guide RNA enables potent non-viral in vivo genome editing",
+      "year": 2017,
+      "cited_by_count": 503,
+      "fwci": 19.9667,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1038/nbt.4005"
+    },
+    {
+      "id": "https://openalex.org/W2138734944",
+      "x": 0.4123,
+      "y": 6.1082,
+      "cluster": 6,
+      "title": "Activity and specificity of TRV-mediated gene editing in plants",
+      "year": 2015,
+      "cited_by_count": 89,
+      "fwci": 3.9154,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1080/15592324.2015.1044191"
+    },
+    {
+      "id": "https://openalex.org/W2979204485",
+      "x": 2.674,
+      "y": 5.6793,
+      "cluster": -1,
+      "title": "<i>Francisella novicida</i> Cas9 interrogates genomic DNA with very high specificity and can be used for mammalian genome editing",
+      "year": 2019,
+      "cited_by_count": 111,
+      "fwci": 5.2145,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1073/pnas.1818461116"
+    },
+    {
+      "id": "https://openalex.org/W2667943050",
+      "x": 1.593,
+      "y": 7.7364,
+      "cluster": 0,
+      "title": "CRISPR/Cas9-Based Genome Editing for Disease Modeling and Therapy: Challenges and Opportunities for Nonviral Delivery",
+      "year": 2017,
+      "cited_by_count": 556,
+      "fwci": 21.7608,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1021/acs.chemrev.6b00799"
+    },
+    {
+      "id": "https://openalex.org/W3047419816",
+      "x": 1.5446,
+      "y": 6.4586,
+      "cluster": 0,
+      "title": "Improving CRISPR/Cas9-mediated genome editing efficiency in Yarrowia lipolytica using direct tRNA-sgRNA fusions",
+      "year": 2020,
+      "cited_by_count": 52,
+      "fwci": 2.3346,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1016/j.ymben.2020.07.008"
+    },
+    {
+      "id": "https://openalex.org/W2790778573",
+      "x": 1.1912,
+      "y": 7.8905,
+      "cluster": 0,
+      "title": "Inducible Genome Editing with Conditional CRISPR/Cas9 Mice",
+      "year": 2018,
+      "cited_by_count": 19,
+      "fwci": 0.9276,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1534/g3.117.300327"
+    },
+    {
+      "id": "https://openalex.org/W2769919647",
+      "x": 1.3093,
+      "y": 6.9119,
+      "cluster": 0,
+      "title": "Development of a CRISPR/Cas9 genome editing toolbox for Corynebacterium glutamicum",
+      "year": 2017,
+      "cited_by_count": 146,
+      "fwci": 5.6086,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1186/s12934-017-0815-5"
+    },
+    {
+      "id": "https://openalex.org/W2950422347",
+      "x": 1.7128,
+      "y": 6.9716,
+      "cluster": 0,
+      "title": "Highly multiplexed genome engineering using CRISPR/Cas9 gRNA arrays",
+      "year": 2018,
+      "cited_by_count": 75,
+      "fwci": 2.6899,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1371/journal.pone.0198714"
+    },
+    {
+      "id": "https://openalex.org/W2743466609",
+      "x": 1.0581,
+      "y": 7.1049,
+      "cluster": 0,
+      "title": "CRISPR-Cas9 vectors for genome editing and host engineering in the baculovirus–insect cell system",
+      "year": 2017,
+      "cited_by_count": 77,
+      "fwci": 3.2529,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1073/pnas.1705836114"
+    },
+    {
+      "id": "https://openalex.org/W2960163646",
+      "x": 0.7541,
+      "y": 6.9218,
+      "cluster": 0,
+      "title": "CRISPR-Cas9 system: A new-fangled dawn in gene editing",
+      "year": 2019,
+      "cited_by_count": 321,
+      "fwci": 10.5995,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1016/j.lfs.2019.116636"
+    },
+    {
+      "id": "https://openalex.org/W2337751047",
+      "x": 0.4882,
+      "y": 6.5668,
+      "cluster": 6,
+      "title": "CRISPR/Cas9 Platforms for Genome Editing in Plants: Developments and Applications",
+      "year": 2016,
+      "cited_by_count": 470,
+      "fwci": 26.6397,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1016/j.molp.2016.04.009"
+    },
+    {
+      "id": "https://openalex.org/W4320033130",
+      "x": 0.9953,
+      "y": 7.6592,
+      "cluster": 0,
+      "title": "Generation of Genome-Edited Mice by Cytoplasmic Injection of CRISPR-Cas9 RNA",
+      "year": 2023,
+      "cited_by_count": 2,
+      "fwci": 1.5768,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1007/978-1-0716-3016-7_6"
+    },
+    {
+      "id": "https://openalex.org/W2952896068",
+      "x": 2.0981,
+      "y": 6.1556,
+      "cluster": -1,
+      "title": "Improved sgRNA design in bacteria via genome-wide activity profiling",
+      "year": 2018,
+      "cited_by_count": 97,
+      "fwci": 3.7234,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1093/nar/gky572"
+    },
+    {
+      "id": "https://openalex.org/W3085130654",
+      "x": 2.0245,
+      "y": 5.1753,
+      "cluster": 0,
+      "title": "Gene Manipulation Using Fusion Guide RNAs for Cas9 and Cas12a",
+      "year": 2020,
+      "cited_by_count": 2,
+      "fwci": 0.7895,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1007/978-1-0716-0687-2_10"
+    },
+    {
+      "id": "https://openalex.org/W3015098563",
+      "x": 3.8262,
+      "y": 5.3361,
+      "cluster": 3,
+      "title": "Quantification of the affinities of CRISPR–Cas9 nucleases for cognate protospacer adjacent motif (PAM) sequences",
+      "year": 2020,
+      "cited_by_count": 27,
+      "fwci": 1.3343,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1074/jbc.ra119.012239"
+    },
+    {
+      "id": "https://openalex.org/W4324031050",
+      "x": 2.3329,
+      "y": 5.0774,
+      "cluster": -1,
+      "title": "Excess of guide RNA reduces knockin efficiency and drastically increases on-target large deletions",
+      "year": 2023,
+      "cited_by_count": 9,
+      "fwci": 1.2766,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": false,
+      "doi": "https://doi.org/10.1016/j.isci.2023.106399"
+    },
+    {
+      "id": "https://openalex.org/W2128758977",
+      "x": 3.1027,
+      "y": 5.4966,
+      "cluster": 3,
+      "title": "CRISPR/Cas9 systems have off-target activity with insertions or deletions between target DNA and guide RNA sequences",
+      "year": 2014,
+      "cited_by_count": 646,
+      "fwci": 29.3199,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "is_top_10_percent": true,
+      "doi": "https://doi.org/10.1093/nar/gku402"
+    }
+  ],
+  "clusters": [
+    {
+      "label": 5,
+      "is_noise": false,
+      "size": 5,
+      "total_citations": 1937,
+      "mean_citations": 387.4,
+      "mean_fwci": 9.74,
+      "n_top_10_percent": 4,
+      "top_fields": [
+        [
+          "Biochemistry, Genetics and Molecular Biology",
+          5
+        ]
+      ],
+      "top_topics": [
+        [
+          "CRISPR and Genetic Engineering",
+          5
+        ]
+      ],
+      "top_domains": [
+        [
+          "Life Sciences",
+          5
+        ]
+      ],
+      "top_keywords": [
+        [
+          "CRISPR",
+          5
+        ],
+        [
+          "Genome editing",
+          5
+        ],
+        [
+          "Computational biology",
+          5
+        ],
+        [
+          "Cas9",
+          5
+        ],
+        [
+          "Biology",
+          5
+        ]
+      ],
+      "representative": {
+        "title": "Progress of application and off-target effects of CRISPR/Cas9.",
+        "id": "https://openalex.org/W1862162016",
+        "cited_by_count": 10
+      },
+      "description": "These articles center on CRISPR-Cas9 genome engineering with a particular emphasis on off-target activity as a major barrier to accurate and safe editing. Collectively, they review or analyze the mechanistic basis of unintended cleavage, compare methods for detecting and predicting off-target sites, and discuss strategies to improve specificity, from high-fidelity Cas variants and sgRNA design tools to experimental mitigation in pooled screening settings. The inclusion of temperature effects fits this theme as a practical parameter influencing Cas9 editing efficiency and specificity, highlighting how editing outcomes depend on both molecular design and experimental conditions."
+    },
+    {
+      "label": 0,
+      "is_noise": false,
+      "size": 16,
+      "total_citations": 1899,
+      "mean_citations": 118.7,
+      "mean_fwci": 4.83,
+      "n_top_10_percent": 6,
+      "top_fields": [
+        [
+          "Biochemistry, Genetics and Molecular Biology",
+          16
+        ]
+      ],
+      "top_topics": [
+        [
+          "CRISPR and Genetic Engineering",
+          15
+        ],
+        [
+          "Microbial Metabolic Engineering and Bioproduction",
+          1
+        ]
+      ],
+      "top_domains": [
+        [
+          "Life Sciences",
+          16
+        ]
+      ],
+      "top_keywords": [
+        [
+          "CRISPR",
+          16
+        ],
+        [
+          "Genome editing",
+          16
+        ],
+        [
+          "Cas9",
+          16
+        ],
+        [
+          "Biology",
+          16
+        ],
+        [
+          "Gene",
+          16
+        ]
+      ],
+      "representative": {
+        "title": "Therapeutic applications of CRISPR RNA-guided genome editing",
+        "id": "https://openalex.org/W2516842346",
+        "cited_by_count": 25
+      },
+      "description": "These articles center on CRISPR/Cas9 as a versatile genome-editing platform for both basic research and therapeutic use, with emphasis on how targeted double-strand breaks can be exploited for gene disruption, correction, regulation, and disease modeling. Together they highlight practical strategies to improve editing performance and translational feasibility—such as boosting repair pathways, chemically optimizing guide RNAs, and developing viral or nonviral delivery systems—while reviewing applications in inherited disease, cancer, and other biomedical settings."
+    },
+    {
+      "label": 1,
+      "is_noise": false,
+      "size": 11,
+      "total_citations": 1860,
+      "mean_citations": 169.1,
+      "mean_fwci": 9.24,
+      "n_top_10_percent": 6,
+      "top_fields": [
+        [
+          "Biochemistry, Genetics and Molecular Biology",
+          11
+        ]
+      ],
+      "top_topics": [
+        [
+          "CRISPR and Genetic Engineering",
+          10
+        ],
+        [
+          "Advanced Fluorescence Microscopy Techniques",
+          1
+        ]
+      ],
+      "top_domains": [
+        [
+          "Life Sciences",
+          11
+        ]
+      ],
+      "top_keywords": [
+        [
+          "Biology",
+          11
+        ],
+        [
+          "Computational biology",
+          11
+        ],
+        [
+          "CRISPR",
+          10
+        ],
+        [
+          "Genetics",
+          10
+        ],
+        [
+          "Gene",
+          10
+        ]
+      ],
+      "representative": {
+        "title": "Characterizing CRISPR off-target effects",
+        "id": "https://openalex.org/W2001799395",
+        "cited_by_count": 4
+      },
+      "description": "This cluster centers on the safety and specificity of CRISPR-Cas genome editing, with particular attention to unintended DNA changes that can arise either at off-target genomic sites or unexpectedly at the intended target locus. The articles combine genome-wide detection and validation methods with strategy-oriented reviews, using tools such as Digenome-seq, sequencing-based genotyping, and other assay platforms to map cleavage errors, quantify on-target damage, and evaluate ways to minimize or eliminate these side effects in research and therapeutic applications."
+    },
+    {
+      "label": 6,
+      "is_noise": false,
+      "size": 8,
+      "total_citations": 1664,
+      "mean_citations": 208,
+      "mean_fwci": 10.2,
+      "n_top_10_percent": 7,
+      "top_fields": [
+        [
+          "Biochemistry, Genetics and Molecular Biology",
+          8
+        ]
+      ],
+      "top_topics": [
+        [
+          "CRISPR and Genetic Engineering",
+          8
+        ]
+      ],
+      "top_domains": [
+        [
+          "Life Sciences",
+          8
+        ]
+      ],
+      "top_keywords": [
+        [
+          "CRISPR",
+          8
+        ],
+        [
+          "Genome editing",
+          8
+        ],
+        [
+          "Biology",
+          8
+        ],
+        [
+          "Cas9",
+          8
+        ],
+        [
+          "Computational biology",
+          8
+        ]
+      ],
+      "representative": {
+        "title": "Achieving Plant CRISPR Targeting that Limits Off‐Target Effects",
+        "id": "https://openalex.org/W2527347512",
+        "cited_by_count": 94
+      },
+      "description": "These papers center on the deployment of CRISPR/Cas9 as a genome-engineering platform across animals and especially plants, with a shared focus on making editing efficient, heritable, and precise for trait generation or functional studies. Methodologically, they combine zygote or embryo injection, donor-mediated knock-in, multiplex targeting, and viral or plant-compatible delivery systems, while also explicitly evaluating and reducing off-target mutations through improved guide design and Cas9 variants. Together, they capture the push to turn CRISPR into a reliable, high-specificity tool for practical genome modification in model organisms and crops."
+    },
+    {
+      "label": 3,
+      "is_noise": false,
+      "size": 7,
+      "total_citations": 1122,
+      "mean_citations": 160.3,
+      "mean_fwci": 8.87,
+      "n_top_10_percent": 5,
+      "top_fields": [
+        [
+          "Biochemistry, Genetics and Molecular Biology",
+          7
+        ]
+      ],
+      "top_topics": [
+        [
+          "CRISPR and Genetic Engineering",
+          7
+        ]
+      ],
+      "top_domains": [
+        [
+          "Life Sciences",
+          7
+        ]
+      ],
+      "top_keywords": [
+        [
+          "CRISPR",
+          7
+        ],
+        [
+          "Biology",
+          7
+        ],
+        [
+          "Genetics",
+          7
+        ],
+        [
+          "Computational biology",
+          7
+        ],
+        [
+          "Gene",
+          7
+        ]
+      ],
+      "representative": {
+        "title": "Off‐target assessment of <scp>CRISPR</scp>‐<scp>C</scp>as9 guiding <scp>RNA</scp>s in human i<scp>PS</scp> and mouse <scp>ES</scp> cells",
+        "id": "https://openalex.org/W1743052068",
+        "cited_by_count": 67
+      },
+      "description": "These studies are unified by a central concern with the specificity and safety of CRISPR nucleases: how often they cut or nick unintended DNA or RNA targets, and what sequence features permit such off-target activity. Methodologically, they use systematic specificity profiling—mismatch and bulge-containing target libraries, predicted off-target site testing in cells, cleavage/nicking assays, and biochemical measurements such as PAM binding—to compare natural enzymes and engineered variants across Cas9, Cas12a, and Cas13 systems. Together, they show that CRISPR effectors vary widely in off-target behavior, that even “high-fidelity” or seemingly specific nucleases can retain unexpected collateral or mismatch-tolerant activity, and that guide/target context strongly shapes editing precision."
+    },
+    {
+      "label": 2,
+      "is_noise": false,
+      "size": 7,
+      "total_citations": 836,
+      "mean_citations": 119.4,
+      "mean_fwci": 18.08,
+      "n_top_10_percent": 4,
+      "top_fields": [
+        [
+          "Biochemistry, Genetics and Molecular Biology",
+          7
+        ]
+      ],
+      "top_topics": [
+        [
+          "CRISPR and Genetic Engineering",
+          7
+        ]
+      ],
+      "top_domains": [
+        [
+          "Life Sciences",
+          7
+        ]
+      ],
+      "top_keywords": [
+        [
+          "Genome editing",
+          7
+        ],
+        [
+          "Computational biology",
+          7
+        ],
+        [
+          "Gene",
+          7
+        ],
+        [
+          "Biology",
+          7
+        ],
+        [
+          "Genetics",
+          7
+        ]
+      ],
+      "representative": {
+        "title": "Off-target effects in CRISPR/Cas9 gene editing",
+        "id": "https://openalex.org/W4323666400",
+        "cited_by_count": 544
+      },
+      "description": "These papers are unified by concern over the safety of CRISPR/Cas genome editing, especially the detection, quantification, and mitigation of unintended genome alterations before therapeutic use. They synthesize preclinical and clinical evidence, comparing genome-wide assays, sequencing-based detection methods, and design/engineering strategies to reduce off-target cutting, while also emphasizing that “off-target” risk includes not only small sequence changes but also larger structural and vector-related integration events. Together, they frame off-target analysis as a central translational bottleneck for moving CRISPR from promising tool to reliable medicine."
+    },
+    {
+      "label": 4,
+      "is_noise": false,
+      "size": 5,
+      "total_citations": 360,
+      "mean_citations": 72,
+      "mean_fwci": 3.71,
+      "n_top_10_percent": 2,
+      "top_fields": [
+        [
+          "Biochemistry, Genetics and Molecular Biology",
+          5
+        ]
+      ],
+      "top_topics": [
+        [
+          "CRISPR and Genetic Engineering",
+          5
+        ]
+      ],
+      "top_domains": [
+        [
+          "Life Sciences",
+          5
+        ]
+      ],
+      "top_keywords": [
+        [
+          "CRISPR",
+          5
+        ],
+        [
+          "Computational biology",
+          5
+        ],
+        [
+          "Biology",
+          5
+        ],
+        [
+          "Gene",
+          4
+        ],
+        [
+          "Genetics",
+          4
+        ]
+      ],
+      "representative": {
+        "title": "Off-Target Effects Of CRISPR/Cas9 and Their Solutions",
+        "id": "https://openalex.org/W4366777773",
+        "cited_by_count": 4
+      },
+      "description": "These articles are united by a common focus on CRISPR specificity—especially why CRISPR-Cas systems sometimes cut unintended genomic sites and how sequence context shapes that risk. Together they combine mechanistic approaches, such as molecular dynamics simulations and reporter-based mutational profiling, with broader evidence synthesis and reviews to identify the roles of mismatches, PAM requirements, target-site variation, and guide RNA/enzymatic architecture in determining off-target activity."
+    },
+    {
+      "label": -1,
+      "is_noise": true,
+      "size": 11,
+      "total_citations": 8983,
+      "mean_citations": 816.6,
+      "mean_fwci": 38.72,
+      "n_top_10_percent": 8,
+      "top_fields": [
+        [
+          "Biochemistry, Genetics and Molecular Biology",
+          11
+        ]
+      ],
+      "top_topics": [
+        [
+          "CRISPR and Genetic Engineering",
+          10
+        ],
+        [
+          "Glycosylation and Glycoproteins Research",
+          1
+        ]
+      ],
+      "top_domains": [
+        [
+          "Life Sciences",
+          11
+        ]
+      ],
+      "top_keywords": [
+        [
+          "Computational biology",
+          11
+        ],
+        [
+          "Biology",
+          11
+        ],
+        [
+          "CRISPR",
+          10
+        ],
+        [
+          "Genetics",
+          10
+        ],
+        [
+          "Gene",
+          10
+        ]
+      ],
+      "representative": {
+        "title": "The Challenge Facing CRISPR/Cas9 System: Off-Target Effects and Their Optimization",
+        "id": "https://openalex.org/W4391277250",
+        "cited_by_count": 1
+      },
+      "description": null
+    }
+  ]
+}
