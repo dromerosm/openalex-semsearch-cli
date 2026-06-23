@@ -1,0 +1,4 @@
+# Web demo app dependencies (in addition to the openalex-cli package itself).
+# Install the CLI package first: pip install -e . (from repo root).
+fastapi>=0.115
+uvicorn[standard]>=0.32
