@@ -15,6 +15,11 @@ dependencies = [
     "openai>=1.60",
     "scikit-learn>=1.6",
     "numpy>=2.2",
+    # numba<0.60 ships no wheels for Python 3.14; without this floor the resolver
+    # backtracks to numba 0.53 / llvmlite 0.36 (which fail to build on 3.14) while
+    # trying to keep numpy at 2.5. The floor forces the working numba>=0.60 line,
+    # which in turn caps numpy at <2.5. umap-learn pulls numba in transitively.
+    "numba>=0.60",
     "umap-learn>=0.5.6",
 ]
 
