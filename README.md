@@ -92,6 +92,7 @@ A full worked example is in [examples/](examples/README.md).
 |---|---|
 | `oa search <query>` | Retrieve papers (semantic by default) with citations, FWCI and percentile. |
 | `oa cluster <query>` | Retrieve, embed (OpenAI), cluster, and summarize impact per cluster. |
+| `oa citations <ids>` | Dated citation series per paper: recent windows, acceleration, rate. |
 | `oa whoami` | Show which credentials are detected in `.env`. |
 
 ### Data retrieved per paper
@@ -165,6 +166,53 @@ The CLI avoids N+1 patterns:
 - `--expand` uses `related_works` (already in the response) and fetches them with the
   OR-filter `ids.openalex:W1|W2|...` → **1 call per 100 works** instead of one per work.
   Reusable as `OpenAlexClient.fetch_works_by_ids(ids)`.
+
+### Citation series (`oa citations`)
+
+OpenAlex's `counts_by_year` is yearly, too coarse to see a recent paper taking off.
+`oa citations` fetches the works that cite each paper (filter `cites:<id>`, 1 call per
+100 citing works) and uses their `publication_date` to build a day, week or month
+series, plus citations in the last 30 and 90 days, the 90 days before that, the
+acceleration (last 90 / previous 90) and the average citations per month since
+publication.
+
+```bash
+# One or more work IDs
+.venv/bin/oa citations W7128545566 W4417466326
+
+# Chain it after a search, weekly buckets, export the series
+.venv/bin/oa search "world models for embodied agents" --year 2026 --export hits.json
+.venv/bin/oa citations --from-export hits.json --bucket week --export series.json
+
+# Add the real publication date and influential citations from Semantic Scholar
+.venv/bin/oa citations --from-export hits.json --s2
+```
+
+Options: `--bucket day|week|month` (default `month`), `--since YYYY-MM-DD`,
+`--max-citing` (default 2000 per paper, newest first; a `+` after the citation count
+marks a truncated fetch), `--from-export`, `--s2`, `--export <.json|.csv>`.
+
+Date quality, handled explicitly:
+
+- Citing works dated `YYYY-01-01` (OpenAlex's year-only placeholder), undated, or dated
+  in the future are counted in their own export columns and left out of the series and
+  the windows.
+- A first-of-month day is often a month-only date, so `day` and `week` buckets are
+  noisier than `month`.
+- A `--since` inside the last 180 days cuts the baseline short, so the previous-90-day
+  count and the acceleration are left blank.
+
+`--s2` looks each paper up in [Semantic Scholar](https://www.semanticscholar.org/product/api)
+by DOI, falling back to an exact title match (S2 often files a paper under its arXiv DOI).
+It adds the S2 publication date — used for the citations-per-month rate, since OpenAlex
+frequently reports January 1st for recent papers — and the influential-citation count.
+It works without a key but is heavily throttled; set `S2_API_KEY` for regular use.
+
+## Tests
+
+```bash
+.venv/bin/python -m unittest discover -s tests
+```
 
 ## Citing OpenAlex
 
