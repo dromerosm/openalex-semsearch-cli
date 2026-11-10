@@ -17,6 +17,8 @@ class Settings:
     openai_embed_model: str
     # Chat model to describe clusters from the abstracts.
     openai_describe_model: str
+    # Semantic Scholar key (optional): steadier limits for `citations --s2`.
+    s2_api_key: str | None = None
 
     @property
     def has_openai(self) -> bool:
@@ -32,4 +34,5 @@ def load_settings() -> Settings:
         mailto=os.getenv("OPENALEX_MAILTO") or os.getenv("MAILTO"),
         openai_embed_model=os.getenv("OPENAI_EMBED_MODEL", "text-embedding-3-small"),
         openai_describe_model=os.getenv("OPENAI_DESCRIBE_MODEL", "gpt-5.4-mini"),
+        s2_api_key=os.getenv("S2_API_KEY") or os.getenv("SEMANTIC_SCHOLAR_API_KEY"),
     )

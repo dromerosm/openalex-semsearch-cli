@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import csv
 import json
+from datetime import date, timedelta
 from pathlib import Path
 from typing import Optional
 
@@ -12,6 +13,7 @@ from rich.console import Console
 from rich.table import Table
 
 from . import __version__
+from .citations import BUCKETS, build_profile, cites_per_month, parse_date, series_str
 from .client import MAX_IDS_PER_FILTER, OpenAlexClient, OpenAlexError, Work
 from .config import load_settings
 
@@ -424,6 +426,201 @@ def cluster(
         console.print(f"\n[green]Exported:[/green] {export}")
 
 
+def _ids_from_export(path: Path) -> list[str]:
+    """Read work IDs from a previous `--export` file (.json or .csv, column `id`)."""
+    if not path.exists():
+        raise typer.BadParameter(f"File not found: {path}")
+    suffix = path.suffix.lower()
+    if suffix == ".json":
+        rows = json.loads(path.read_text(encoding="utf-8"))
+    elif suffix == ".csv":
+        with path.open(newline="", encoding="utf-8") as f:
+            rows = list(csv.DictReader(f))
+    else:
+        raise typer.BadParameter("--from-export must be a .json or .csv file")
+    return [_short_id(str(r["id"])) for r in rows if isinstance(r, dict) and r.get("id")]
+
+
+@app.command()
+def citations(
+    ids: Optional[list[str]] = typer.Argument(
+        None, help="OpenAlex work IDs (W123… or full URL)."
+    ),
+    from_export: Optional[Path] = typer.Option(
+        None,
+        "--from-export",
+        help="Take the work IDs from a previous search/cluster --export file.",
+    ),
+    bucket: str = typer.Option(
+        "month", "--bucket", help="Series granularity: day, week or month."
+    ),
+    since: Optional[str] = typer.Option(
+        None, "--since", help="Only citing works published from this date (YYYY-MM-DD)."
+    ),
+    max_citing: int = typer.Option(
+        2000,
+        "--max-citing",
+        help="Cap of citing works fetched per paper (newest first; 1 call per 100).",
+    ),
+    s2: bool = typer.Option(
+        False,
+        "--s2",
+        help="Enrich with Semantic Scholar: real publication date and influential citations.",
+    ),
+    export: Optional[Path] = typer.Option(
+        None, "--export", help="Save the profiles and series to .json or .csv."
+    ),
+) -> None:
+    """Dated citation series per paper: recent windows, acceleration and rate."""
+    if bucket not in BUCKETS:
+        raise typer.BadParameter(f"--bucket must be one of: {', '.join(BUCKETS)}")
+    if since and parse_date(since) is None:
+        raise typer.BadParameter("--since must be a date in YYYY-MM-DD format")
+    if export and export.suffix.lower() not in {".json", ".csv"}:
+        raise typer.BadParameter("Export path must end in .json or .csv")
+
+    wanted = [_short_id(i) for i in (ids or [])]
+    if from_export:
+        wanted.extend(_ids_from_export(from_export))
+    wanted = list(dict.fromkeys(i for i in wanted if i))
+    if not wanted:
+        err.print("[red]Error:[/red] give at least one work ID or --from-export.")
+        raise typer.Exit(1)
+
+    today = date.today()
+    # A --since inside the last 180 days cuts the baseline window short, so the
+    # previous-90-day count and the acceleration would be misleading: blank them.
+    since_date = parse_date(since) if since else None
+    baseline_ok = since_date is None or since_date <= today - timedelta(days=180)
+    settings = load_settings()
+    rows: list[dict] = []
+    try:
+        with _make_client() as client:
+            works = client.fetch_works_by_ids(wanted)
+            missing = set(wanted) - {_short_id(w.id) for w in works}
+            if missing:
+                err.print(f"[yellow]Not found in OpenAlex:[/yellow] {', '.join(sorted(missing))}")
+            with console.status(f"Fetching citing works for {len(works)} paper(s)…"):
+                for w in works:
+                    dates = client.fetch_citing_dates(
+                        w.id, since=since, max_results=max_citing
+                    )
+                    profile = build_profile(dates, today, bucket)
+                    rows.append(
+                        {
+                            "id": _short_id(w.id),
+                            "title": w.title,
+                            "doi": w.doi,
+                            "publication_date": w.publication_date,
+                            "best_publication_date": w.publication_date,
+                            "cited_by_count": w.cited_by_count,
+                            "fwci": w.fwci,
+                            "citing_fetched": profile.n_citing,
+                            "citing_dated": profile.n_dated,
+                            "citing_placeholder_date": profile.n_placeholder,
+                            "citing_undated": profile.n_undated,
+                            "citing_future_date": profile.n_future,
+                            "truncated": profile.n_citing >= max_citing,
+                            "first_citation": profile.first_citation,
+                            "last_30d": profile.last_30d,
+                            "last_90d": profile.last_90d,
+                            "prev_90d": profile.prev_90d if baseline_ok else None,
+                            "acceleration": profile.acceleration if baseline_ok else None,
+                            "cites_per_month": None,
+                            "s2_publication_date": None,
+                            "s2_citation_count": None,
+                            "s2_influential_citation_count": None,
+                            "s2_matched_by": None,
+                            "bucket": bucket,
+                            "series": profile.series,
+                        }
+                    )
+    except OpenAlexError as e:
+        err.print(f"[red]Error:[/red] {e}")
+        raise typer.Exit(1)
+
+    if not rows:
+        err.print("[yellow]No works to profile.[/yellow]")
+        raise typer.Exit(1)
+
+    if s2:
+        from .s2 import S2Client, S2Error
+
+        with S2Client(api_key=settings.s2_api_key) as s2_client:
+            with console.status("Enriching with Semantic Scholar…"):
+                for row in rows:
+                    try:
+                        paper = s2_client.lookup(row["doi"], row["title"])
+                    except S2Error as e:
+                        err.print(f"[yellow]S2 skipped for {row['id']}:[/yellow] {e}")
+                        continue
+                    if paper is None:
+                        continue
+                    row["s2_publication_date"] = paper.publication_date
+                    row["s2_citation_count"] = paper.citation_count
+                    row["s2_influential_citation_count"] = paper.influential_citation_count
+                    row["s2_matched_by"] = paper.matched_by
+                    if paper.publication_date:
+                        row["best_publication_date"] = paper.publication_date
+
+    # Rate since publication, on the best date available (S2's when present). With
+    # --since or a truncated fetch the fetched count is partial, so use the total.
+    for row in rows:
+        row["cites_per_month"] = cites_per_month(
+            row["cited_by_count"], parse_date(row["best_publication_date"]), today
+        )
+
+    table = Table(
+        title=f"Citation series ({bucket} buckets, as of {today.isoformat()})",
+        header_style="bold cyan",
+    )
+    table.add_column("ID", style="dim")
+    table.add_column("Title", overflow="fold", max_width=40)
+    table.add_column("Published", justify="right")
+    table.add_column("Cites", justify="right", style="green")
+    table.add_column("30d", justify="right")
+    table.add_column("90d", justify="right")
+    table.add_column("Prev 90d", justify="right")
+    table.add_column("Accel", justify="right")
+    table.add_column("Cites/mo", justify="right")
+    if s2:
+        table.add_column("Influential", justify="right")
+    for row in rows:
+        cells = [
+            row["id"],
+            row["title"],
+            _fmt(row["best_publication_date"]),
+            _fmt(row["cited_by_count"]) + ("+" if row["truncated"] else ""),
+            _fmt(row["last_30d"]),
+            _fmt(row["last_90d"]),
+            _fmt(row["prev_90d"]),
+            "—" if row["acceleration"] is None else f"{row['acceleration']:.2f}x",
+            _fmt(row["cites_per_month"]),
+        ]
+        if s2:
+            cells.append(_fmt(row["s2_influential_citation_count"]))
+        table.add_row(*cells)
+    console.print(table)
+
+    excluded = sum(
+        r["citing_placeholder_date"] + r["citing_undated"] + r["citing_future_date"]
+        for r in rows
+    )
+    if excluded:
+        console.print(
+            f"[dim]{excluded} citing work(s) left out of the windows "
+            "(placeholder Jan-1, missing or future dates).[/dim]"
+        )
+
+    if export:
+        if export.suffix.lower() == ".csv":
+            out = [{**r, "series": series_str(r["series"])} for r in rows]
+        else:
+            out = rows
+        _export(out, export)
+        console.print(f"[green]Exported:[/green] {export}")
+
+
 @app.command()
 def whoami() -> None:
     """Show which credentials the CLI detects in .env."""
@@ -434,6 +631,7 @@ def whoami() -> None:
     console.print(f"Embedding model: {s.openai_embed_model}")
     console.print(f"Description model: {s.openai_describe_model}")
     console.print(f"mailto (polite pool): {s.mailto or '—'}")
+    console.print(f"S2_API_KEY:       {'✓ detected' if s.s2_api_key else '✗ missing (optional)'}")
 
 
 def main() -> None:

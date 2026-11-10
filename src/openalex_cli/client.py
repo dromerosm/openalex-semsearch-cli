@@ -298,6 +298,42 @@ class OpenAlexClient:
 
         return [by_id[i] for i in unique if i in by_id]
 
+    def fetch_citing_dates(
+        self,
+        work_id: str,
+        *,
+        since: str | None = None,
+        max_results: int = 2000,
+    ) -> list[str | None]:
+        """Publication dates of the works that cite `work_id` (filter `cites:`).
+
+        One list call per 100 citing works. Sorted newest first, so `max_results`
+        keeps the most recent citations of a heavily cited paper. `since`
+        (YYYY-MM-DD) restricts to citing works published from that date.
+        """
+        clauses = [f"cites:{work_id.rsplit('/', 1)[-1]}"]
+        if since:
+            clauses.append(f"from_publication_date:{since}")
+
+        dates: list[str | None] = []
+        cursor = "*"
+        while len(dates) < max_results:
+            params = self._common_params()
+            params["filter"] = ",".join(clauses)
+            params["select"] = "id,publication_date"
+            params["sort"] = "publication_date:desc"
+            params["per_page"] = str(min(max_results - len(dates), MAX_PER_PAGE))
+            params["cursor"] = cursor
+            data = self._get("/works", params)
+            batch = data.get("results", [])
+            if not batch:
+                break
+            dates.extend(item.get("publication_date") for item in batch)
+            cursor = (data.get("meta") or {}).get("next_cursor")
+            if not cursor:
+                break
+        return dates[:max_results]
+
     def _base_params(
         self,
         search_param: str,
